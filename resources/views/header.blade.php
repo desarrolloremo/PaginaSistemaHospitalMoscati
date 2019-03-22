@@ -139,7 +139,7 @@
         <div class="row">
 
           <!-- Footer About -->
-          <div class="col-lg-3 footer_col">
+          <div class="col-sm-6 footer_col">
             <div class="footer_about">
               <div class="footer_logo">
                 <a href="#">
@@ -162,29 +162,26 @@
           </div>
 
           <!-- Footer Contact Info -->
-          <div class="col-lg-3 footer_col">
+           <div class="col-sm-4 footer_col">
 
             <div class="footer_contact">
-              <div class="footer_title">Información de Contacto</div>
+             <div class="footer_title">Información de Contacto</div>
               <ul class="contact_list" style="color:#fff">
                 <li>+52 442 325 9354</li>
                 <li>+52 442-325 9360</li>
                 <li>@correo.com</li>
                 <li>contact@gmail.com</li>
-                <br>
-                <br>
-                <br>
+               
               </ul>
             </div>
-          </div>
+          </div> 
 
           <!-- Footer Locations -->
-          <div class="col-lg-3 footer_col">
+          <div class="col-sm-2 footer_col">
             <div class="footer_location">
               <div class="footer_title">Localización</div>
               <ul class="locations_list">
                 <li>
-                  <div class="location_title"></div>
                   <div class="location_text" style="color:#fff">Boulevard, Av. de las Ciencias 2058, Juriquilla, Qro.</div>
                 </li>
               </ul>

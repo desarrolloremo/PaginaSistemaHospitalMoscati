@@ -1,10 +1,6 @@
 @extends('header') 
 @section('contenido')
-<br>
-<br>
-<br>
-<br>
-<br>
+    <br><br><br>
 <div class="contact">
     <div class="container">
         <div class="row">

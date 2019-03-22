@@ -18,7 +18,7 @@
         <div class="box">
           <div class="box-header with-border">
             <div class="box-tools pull-right">
-                    <a href="{{route('admin.bolsadetrabajo.createtrabajo')}}" class="btn btn-s btn-primary pull-right"><i class="fa fa-plus"> Registrar nuevo medico</i></a>
+                    <a href="{{route('admin.bolsadetrabajo.createtrabajo')}}" class="btn btn-s btn-primary pull-right"><i class="fa fa-plus"> Registrar nueva oferta laboral</i></a>
 
             </div>
           </div>

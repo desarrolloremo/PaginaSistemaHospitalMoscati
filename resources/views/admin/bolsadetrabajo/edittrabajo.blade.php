@@ -27,11 +27,11 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>Nombre del puesto</label>
-                                <input name="nombre" value="{{old('nombre', $post->nombre)}}" class="form-control" placeholder="Ingrese el titulo del articulo" required>
+                                <input name="nombre" value="{{old('nombre', $post->nombre)}}" class="form-control" placeholder="Ingrese el titulo del puesto" required>
                             </div>
                             <div class="form-group">
                                 <label>Breve descripcion</label>
-                                <input name="excerpt"  value="{{old('excerpt', $post->excerpt)}}"class="form-control" placeholder="Ingrese el titulo del articulo" required>
+                                <input name="excerpt"  value="{{old('excerpt', $post->excerpt)}}"class="form-control" placeholder="Ingrese una breve descripción" required>
                             </div>
                             <div class="form-group">
                                 <label>Detalles</label>

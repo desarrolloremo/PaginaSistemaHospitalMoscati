@@ -5,11 +5,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <div class="bloc bgc-white  l-bloc bg-repeat" id="bolsa">
     <div style="color:#333;" class="container bloc-md">
         <div class="row">
@@ -43,8 +39,7 @@
                 <p class="mg-lg text-justify ">
                     Vacantes disponibles:
                 </p>
-                <br>
-                <br>
+                
                 <table class="table table-action">
 
                     <thead>
@@ -56,16 +51,20 @@
                     </thead>
                     <tbody>
                         @foreach ($posts as $post)
+                        @if(count($posts) === 0)
+                        <tr>
+                            <td>No hay trabajos disponibles</td>
+                        </tr>
+                        @else
                         <tr>
                             <td><a href="bolsadetrabajo/{{ $post->nombre}}">{{$post->nombre}}</a></td>
                             <td>{{$post->excerpt}}</td>
-                            <td>{{ Carbon\Carbon::parse($post->published_at)->format('d-m-Y') }}</td> 
+                            <td>{{ Carbon\Carbon::parse($post->published_at)->format('d-m-Y') }}</td>
                         </tr>
-                        @endforeach
-
+                        @endif @endforeach
                     </tbody>
-                </table>
 
+                </table>
 
 
             </div>

@@ -21,7 +21,7 @@
     <div class="box-body">
         <form method="POST" action="{{ route('admin.eventos.store')}}">
             {{csrf_field()}}
-            <div class="col-sm-4">
+            <div class="col-sm-12">
                 <div class="card-body">
                     <div class="form-group">
                         <label>Nombre del evento</label>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="form-group">
                         <label>Duracion del evento</label>
-                        <input name="duracion" class="form-control" placeholder="Ingrese la duracion dele evento" required>
+                        <input name="duracion" class="form-control" placeholder="Ingrese la duracion del evento" required>
                     </div>
                     <div class="form-group">
                         <label>Direccion del evento</label>
@@ -59,11 +59,11 @@
 
             </div>
 
-            <div class="col-sm-8">
+            <div class="col-sm-12">
 
                 <div class="form-group">
                     <label>Detalles</label>
-                    <textarea name="body" id="editor" cols="30" rows="30"></textarea>
+                    <textarea name="body" id="editor" cols="100" rows="100"></textarea>
 
                 </div>
                 <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Trabajo</i></button>

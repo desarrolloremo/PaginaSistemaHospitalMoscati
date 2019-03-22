@@ -684,7 +684,7 @@ section
 	padding-right: 34px;
 	padding-bottom: 63px;
 	padding-top: 136px;
-	box-shadow: 0px 25px 38px rgba(0,0,0,0.2);
+
 }
 .contact_form_title
 {
@@ -1065,11 +1065,11 @@ section
 }
 .footer_contact
 {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 .contact_list
 {
-	margin-top: 44px;
+	margin-top: 34px;
 }
 .contact_list li
 {
@@ -1083,7 +1083,7 @@ section
 }
 .footer_location
 {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 .locations_list
 {

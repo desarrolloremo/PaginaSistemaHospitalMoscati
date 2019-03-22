@@ -17,7 +17,7 @@
     <div class="box-header with-border">
 
         <div class="box-tools pull-right">
-            <a href="{{route('admin.buscarpacientes.createpacientes')}}" class="btn btn-s btn-primary pull-right"><i class="fa fa-plus"> Registrar nuevo medico</i></a>
+            <a href="{{route('admin.buscarpacientes.createpacientes')}}" class="btn btn-s btn-primary pull-right"><i class="fa fa-plus"> Registrar nuevo paciente</i></a>
         </div>
     </div>
     <div class="box-body">
