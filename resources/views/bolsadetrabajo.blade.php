@@ -39,7 +39,6 @@
                 <p class="mg-lg text-justify ">
                     Vacantes disponibles:
                 </p>
-                
                 <table class="table table-action">
 
                     <thead>
@@ -50,18 +49,21 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @if(count($posts)>0)
                         @foreach ($posts as $post)
-                        @if(count($posts) === 0)
-                        <tr>
-                            <td>No hay trabajos disponibles</td>
-                        </tr>
-                        @else
                         <tr>
                             <td><a href="bolsadetrabajo/{{ $post->nombre}}">{{$post->nombre}}</a></td>
                             <td>{{$post->excerpt}}</td>
                             <td>{{ Carbon\Carbon::parse($post->published_at)->format('d-m-Y') }}</td>
                         </tr>
-                        @endif @endforeach
+                        @endforeach
+                        @else
+                        <div class="alert alert-dismissable alert-warning">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <h4>Mensaje!</h4>
+                        <p>No hay vacantes disponibles por el momento.</p>
+                        </div>
+                        @endif
                     </tbody>
 
                 </table>

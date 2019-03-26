@@ -9,7 +9,7 @@
         <form method="POST" action="{{ action('Admin\BuscarPacienteController@obtenerFormulario')}}">
             {{csrf_field()}}
             <div class="blog_post_subtitle">Datos Personales</div>
-            <div class="row">
+            <div class="row" style="margin:20px" >
                 <div class="col-sm-4">
                     <div class="form-group row">
                         <label for="txtNombres" class="col-sm-12 col-form-label">Nombre(s):</label>
@@ -52,7 +52,7 @@
                 </div>
             </div>{{-- END ROW --}}
             <div class="blog_post_subtitle">Dirección</div>
-            <div class="row">
+            <div class="row" style="margin:20px">
                 <div class="col-sm-6">
                     <div class="form-group row">
                         <label for="txtdireccion" class="col-sm-12 col-form-label">Direccion:</label>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <div class="form-group row">
                         <label for="txtCP" class="col-sm-12 col-form-label">CP:</label>
                         <div class="col-sm-12">
@@ -98,7 +98,7 @@
             <div class="blog_post_subtitle">Responsable o acompañante
                 <p>(Obligatorio menores de edad)</p>
             </div>
-            <div class="row">
+            <div class="row" style="margin:20px">
                 <div class="col-sm-6">
                     <div class="form-group row">
                         <label for="txtNombreAcompañante" class="col-sm-12 col-form-label">Nombre Acompañante:</label>
@@ -134,7 +134,7 @@
 
             </div>{{-- END ROW --}}
             <div class="blog_post_subtitle">Detalles internado</div>
-            <div class="row">
+            <div class="row" style="margin:20px">
                 <div class="col-sm-6">
                     <div class="form-group row">
                         <label for="txtMedicointerna" class="col-sm-12 col-form-label">Medico que interna:</label>

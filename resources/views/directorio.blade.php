@@ -38,6 +38,7 @@
         <th>Telefono</th>
         <th>Consultorio</th>
       </tr>
+      @if(count($posts)>0)
       @foreach ($posts as $post)
       <tr>
         <td>{{$post->nombre}}</td>
@@ -47,6 +48,15 @@
         <td>{{$post->consultorio}}</td>
       </tr>
       @endforeach
+      @else
+      <br>
+      <div class="alert alert-dismissable alert-warning">
+      <button type="button" class="close" data-dismiss="alert">×</button>
+      <h4>Mensaje!</h4>
+      <p>No se encuentran disponibles por el momento.</p>
+      </div>
+      <br>
+      @endif
     </table>
   </div>
 </div>

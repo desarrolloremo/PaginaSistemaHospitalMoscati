@@ -10,7 +10,7 @@
         <br><br>
         <form method="POST" action="{{ action('Admin\BuscarPacienteController@obtenerFormulario')}}">
             {{csrf_field()}}
-            <div class="row">
+            <div class="row" style="margin: 20px">
                 <div class="col-sm-6">
                     <div class="form-group row">
                         <label for="txtNombres" class="col-sm-12 col-form-label">Nombres:</label>

@@ -7,7 +7,7 @@
 
     <div class="blog_post_title"><a href="#">Consulta de Pacientes Hospitalizados</a></div>
 
-    <p style="color:black;text-align: center; ">Estimada Comunidad Usuaria: Como una forma de facilitar el acceso a información oportuna sobre la ubicación de pacientes
+    <p style="color:black;text-align: center; margin:20px; ">Estimada Comunidad Usuaria: Como una forma de facilitar el acceso a información oportuna sobre la ubicación de pacientes
       que se encuentren hospitalizados en nuestro Complejo Asistencial, hemos dispuesto el siguiente formulario de consulta,
       en el cual podrá acceder a información genérica sobre la unidad de hospitalización donde se encuentre hospitalizado
       un paciente.
