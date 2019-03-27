@@ -861,13 +861,13 @@ section
 .why
 {
 	width: 100%;
-	
-	background: #1c2533;
+	background: url("../img/SitioPrincipal/iconosheader/44797788_xl.jpg") fixed center no-repeat;
+
 }
 .why_content
 {
-	padding-top: 102px;
-	padding-bottom: 90px;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 .why_text
 {
@@ -884,6 +884,12 @@ section
 .why_list ul li:not(:last-of-type)
 {
 	margin-bottom: 31px;
+}
+@media (max-width: 480px) {
+.img-why{
+	height: 50%;
+	margin-top: 10%;
+}
 }
 .icon_container
 {
@@ -1446,7 +1452,7 @@ img {
   }
   .carousel-inner img {
 	width: 100%;
-	height: 900px;
+	height: 600px;
 }
 
 

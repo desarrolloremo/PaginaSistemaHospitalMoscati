@@ -235,7 +235,7 @@
 {
 	p
 	{
-		font-size: 13px;
+		font-size: 18px;
 	}
 	h2
 	{
@@ -244,11 +244,11 @@
 	.header.scrolled .header_content,
 	.header_content
 	{
-		height: 20px;
+		height: 60px;
 	}
 	.home
 	{
-		height: 365px;
+		height: 465px;
 	}
 	.home_container
 	{

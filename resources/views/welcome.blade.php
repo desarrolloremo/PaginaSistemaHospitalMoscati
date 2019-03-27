@@ -1,6 +1,9 @@
 @extends('header') 
 @section('contenido')
-
+<br>
+<br>
+<br>
+<br>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <!-- Indicators -->
@@ -14,9 +17,9 @@
     <!-- Wrapper for slides -->
 
     <div class="carousel-inner">
-        <div class="carousel-item active"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg" width="1010" height="500"> </div>
-        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg" width="1010" height="500"> </div>
-        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg" width="1010" height="500"> </div>
+        <div class="carousel-item active"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg"> </div>
+        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg"> </div>
+        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg"> </div>
     </div>
 
     <!-- Left and right controls -->
@@ -32,61 +35,61 @@
 </div>
 
 <div class="why">
-    <!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-
-            <!-- Why Choose Us Image -->
-            <div class="col-lg-6 ">
-                <img class="img-fluid rounded mx-auto d-block" src="img/SitioPrincipal/iconosheader/DOCTORESFOTO.png">
-            </div>
-
-            <!-- Why Choose Us Content -->
-            <div class="col-lg-6 order-lg-2 order-1">
-                <div class="why_content">
-                    <div class="section_title_container">
-                        <div class="section_subtitle"></div>
-                        <div class="section_title">
-                            <h2 style="color:white">Bienvenidos a nuestra clínica</h2>
+    <div style="background: rgb(28, 37, 51, .8)">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <!-- Why Choose Us Image -->
+                <div class="col-lg-6 ">
+                    <br>
+                    <img class="img-fluid rounded mx-auto d-block" src="img/SitioPrincipal/iconosheader/DOCTORESFOTO.png">
+                </div>
+                <!-- Why Choose Us Content -->
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="why_content">
+                        <div class="section_title_container">
+                            <div class="section_subtitle"></div>
+                            <div class="section_title">
+                                <h2 style="color:white">Bienvenidos a nuestra clínica</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div class="why_text">
-                        <p>En Hospital San José Moscati, brindamos calidad en nuestros servicios y para lograrlo, contamos con
-                            personal calificado en cada una de las áreas y servicios. La capacitación es una de nuestras
-                            fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales en nuestra área.</p>
+                        <div class="why_text">
+                            <p>En Hospital San José Moscati, brindamos calidad en nuestros servicios y para lograrlo, contamos
+                                con personal calificado en cada una de las áreas y servicios. La capacitación es una de nuestras
+                                fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales en nuestra
+                                área.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-1">
-                <div><img src="img/SitioPrincipal/iconosheader/DOCTORICONO.png" height="110px"></div>
-            </div>
-            <div class="col-sm-3">
-                <div class="why_list_title">Contamos con más de 40 especialidades</div>
-                <div class="why_list_text">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
-            </div>
-            <div class="col-sm-1">
-                <div><img src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png" height="110px"></div>
-            </div>
-            <div class="col-sm-3">
-                <div class="why_list_title">Los mejores doctores</div>
-                <div class="why_list_text">Nuestros profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
-            </div>
-            <div class="col-sm-1">
-                <div><img src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png" height="110px"></div>
-            </div>
-            <div class="col-sm-3">
-                <div class="why_list_title">Equipo de enfermeras</div>
-                <div class="why_list_text">Que mantienen una relación óptima<br> que permite una atención personalizada.</div>
-            </div>
-            
-        </div>
-        <br>
-    </div>
-    
-</div>
+            <div class="row text-center">
+                <div class="col-sm-1">
+                    <img class="img-why" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
+                </div>
+                <div class="col-sm-3">
+                    <div class="why_list_title">Contamos con más de 40 especialidades</div>
+                    <div class="why_list_text">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
+                </div>
+                <div class="col-sm-1">
+                    <img class="img-why" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
+                </div>
+                <div class="col-sm-3">
+                    <div class="why_list_title">Los mejores doctores</div>
+                    <div class="why_list_text">Nuestros profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
+                </div>
+                <div class="col-sm-1">
+                    <img class="img-why" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
+                </div>
+                <div class="col-sm-3">
+                    <div class="why_list_title">Equipo de enfermeras</div>
+                    <div class="why_list_text">Que mantienen una relación óptima<br> que permite una atención personalizada.</div>
+                </div>
 
+            </div>
+            <br>
+        </div>
+
+    </div>
+</div>
 <div class="services">
     <div class="container">
         <div class="row">

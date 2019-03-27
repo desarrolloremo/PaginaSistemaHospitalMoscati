@@ -1,7 +1,9 @@
 @extends('header') 
 @section('contenido')
 <br>
-
+<br>
+<br>
+<br>
 <div class="home d-flex flex-column align-items-start justify-content-end">
 	<div class="home_container">
 		<div class="container">
@@ -22,6 +24,8 @@
 	</div>
 </div>
 <div class="section-full bg-white content-inner">
+		<br>
+		<br>
 		<div class="container">
 			<div class="blog_post_text text-center ">
 				<h3 class="text-uppercase">INSTALACIONES </h3>

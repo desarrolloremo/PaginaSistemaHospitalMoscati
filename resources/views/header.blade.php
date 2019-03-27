@@ -15,10 +15,9 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
+
   <link rel="stylesheet" href="/css/estilos.css" />
   <link rel="stylesheet" href="/css/responsive.css" />
-  <link rel="stylesheet" href="/css/blog.css" />
-  <link rel="stylesheet" href="/css/blog_responsive.css" />
   <link rel="stylesheet" href="/css/contact.css" />
   <link rel="stylesheet" href="/css/contact_responsive.css" />
   <link rel="stylesheet" href="/css/normalize.css">
@@ -46,21 +45,25 @@
 
         <!-- Logo -->
         <div class="logo">
-            <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" width="350px"></a>
+          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" width="350px"></a>
         </div>
         <!-- Main Navigation -->
         <nav class="main_nav">
           <ul class="d-flex flex-row align-items-center justify-content-start">
             <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
             <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
-            <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Servicios</a></li>
-            <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
-            <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
-            <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Blog</a></li>
-            <li class="{{ Request::is('bolsadetrabajo') ? 'active' : '' }}"><a href="{{route('bolsadetrabajo')}}">Bolsa de trabajo</a></li>
-            <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
-            {{--
-            <li class="btn-acceso"><a href="{{route('admin.dashboard')}}" style="color: #fff;">Acceso</a> </li> --}}
+            <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Servicios </a>
+              <ul>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Promociones</a>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Aseguradoras</a>
+              </ul>
+              </li>
+              <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
+              <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
+              <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Blog</a></li>
+              <li class="{{ Request::is('bolsadetrabajo') ? 'active' : '' }}"><a href="{{route('bolsadetrabajo')}}">Bolsa de trabajo</a></li>
+              <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
           </ul>
         </nav>
         <div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
@@ -85,7 +88,14 @@
         <ul>
           <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
           <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
-          <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Servicios</a></li>
+          <li class="submenu">
+            <a href="#">Servicios <i class="fas fa-angle-down"></i></a>
+            <ul  class="children">
+              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
+              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Promociones</a>
+              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Aseguradoras</a>
+            </ul>
+            </li>
           <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
           <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
           <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Noticias</a></li>
@@ -94,7 +104,6 @@
         </ul>
       </nav>
       <div class="menu_extra">
-
       </div>
       <div class="social menu_social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
@@ -162,19 +171,19 @@
           </div>
 
           <!-- Footer Contact Info -->
-           <div class="col-sm-4 footer_col">
+          <div class="col-sm-4 footer_col">
 
             <div class="footer_contact">
-             <div class="footer_title">Información de Contacto</div>
+              <div class="footer_title">Información de Contacto</div>
               <ul class="contact_list" style="color:#fff">
                 <li>+52 442 325 9354</li>
                 <li>+52 442-325 9360</li>
                 <li>@correo.com</li>
                 <li>contact@gmail.com</li>
-               
+
               </ul>
             </div>
-          </div> 
+          </div>
 
           <!-- Footer Locations -->
           <div class="col-sm-2 footer_col">
@@ -200,8 +209,9 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"

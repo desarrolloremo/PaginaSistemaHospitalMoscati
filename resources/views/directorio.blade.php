@@ -29,9 +29,7 @@
   </div>
   <div class="table">
     <table class="responstable">
-
       <tr>
-
         <th data-th="Datos generales"><span>Nombre completo</span></th>
         <th>Especialidad</th>
         <th>Subespecialidad</th>

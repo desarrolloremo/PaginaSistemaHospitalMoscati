@@ -1,4 +1,5 @@
-$(document).ready(function() {
+$(document).ready(function () {
+$(document).ready(main);
     "use strict";
 
     $(".carousel").carousel({
@@ -16,15 +17,15 @@ $(document).ready(function() {
 
     setHeader();
 
-    $(window).on("resize", function() {
+    $(window).on("resize", function () {
         setHeader();
 
-        setTimeout(function() {
+        setTimeout(function () {
             $(window).trigger("resize.px.parallax");
         }, 375);
     });
 
-    $(document).on("scroll", function() {
+    $(document).on("scroll", function () {
         setHeader();
     });
 
@@ -56,29 +57,38 @@ $(document).ready(function() {
         var menuOverlay = $(".menu_overlay");
         var menuClose = $(".menu_close_container");
 
-        hamb.on("click", function() {
+        hamb.on("click", function () {
             menu.toggleClass("active");
             menuOverlay.toggleClass("active");
         });
 
-        menuOverlay.on("click", function() {
+        menuOverlay.on("click", function () {
             menuOverlay.toggleClass("active");
             menu.toggleClass("active");
         });
 
-        menuClose.on("click", function() {
+        menuClose.on("click", function () {
             menuOverlay.toggleClass("active");
             menu.toggleClass("active");
         });
     }
 
+    var contador = 1;
+
+    function main() {
+        // Mostramos y ocultamos submenus
+        $('.submenu').click(function () {
+            $(this).children('.children').slideToggle();
+        });
+    }
+
     /* 
-
-	3. Nosotros instalacionesmouseenter
+ 
+    3. Nosotros instalacionesmouseenter
 https://codepen.io/gsanchezd/pen/yKZmdr
-	*/
+    */
 
-    $(".thumb").mouseenter(function() {
+    $(".thumb").mouseenter(function () {
         $(".featured").attr("src", $(this).attr("src"));
     });
 
