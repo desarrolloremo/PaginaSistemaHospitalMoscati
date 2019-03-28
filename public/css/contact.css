@@ -285,6 +285,20 @@ section
 		font-weight: 600;
 		color: #fff;
 	}
+
+	.section-rojo{
+		height: 46px;
+		background: #D40003;
+		border: solid 2px transparent;
+		display: block;
+		padding-left: 30px;
+		padding-right: 36px;
+		line-height: 42px;
+		font-size: 18.5px;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #fff;
+	}
 	.emergencias a
 	{
 		float: right;
@@ -295,13 +309,12 @@ section
 }
 
 @media (max-width: 767px) {
-	.emergencias
-	{
-		height: 40px;
-		background: #283751;
+	.section-rojo{
+		height: 46px;
+		background: #D40003;
 		border: solid 2px transparent;
 		display: block;
-		padding-left: 5px;
+		padding-left: 30px;
 		padding-right: 36px;
 		line-height: 42px;
 		font-size: 18.5px;
@@ -314,6 +327,19 @@ section
 		display: none;
 	}
 
+}
+
+.section-header {
+
+    text-align: center;
+    margin: 2%;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    color: #727272;
+    font-weight: 700;
+    position: relative;
 }
 
 .section_subtitle

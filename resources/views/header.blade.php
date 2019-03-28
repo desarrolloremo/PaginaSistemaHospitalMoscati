@@ -32,13 +32,22 @@
 
     <!-- Header -->
     <header class="header trans_400">
-
-      <div class="emergencias ">
-        <i class="fas fa-phone"></i> Emergencias: +52 442 123 1234
-        <a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/HospitalMoscati"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+      <div class="row">
+        <div class="col-lg-4" style="padding-right: 0px; padding-left: 0px;">
+            <div class="section-rojo">
+                <i class="fas fa-phone" style="margin-left: 20%;"></i>  URGENCIAS: +52 442 614 7901
+            </div>
+        </div>
+        <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
+            <div class="emergencias">
+                <a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/HospitalMoscati"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              </div>
+        </div>
+        
       </div>
+       
 
 
       <div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
@@ -55,8 +64,8 @@
             <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Servicios </a>
               <ul>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
-                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Promociones</a>
-                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Aseguradoras</a>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
               </ul>
               </li>
               <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
@@ -92,8 +101,8 @@
             <a href="#">Servicios <i class="fas fa-angle-down"></i></a>
             <ul  class="children">
               <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
-              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Promociones</a>
-              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Aseguradoras</a>
+              <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
+              <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
             </ul>
             </li>
           <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>

@@ -24,12 +24,17 @@ Route::get('servicios', function () {
     return view('servicios');
 })->name('servicios');
 
+Route::get('promocionesyservicios', function () {
+    return view('promocionesyservicios');
+})->name('promocionesyservicios');
+
+
+Route::get('servicios', 'ServiciosController@home')->name('servicios');
+Route::get('promocionesyservicios', 'ServiciosController@promociones')->name('promocionesyservicios');
 
 Route::get('contacto', function () {
     return view('contacto');
 })->name('contacto');
-
-
 
 Route::get('blog', 'BlogController@home')->name('blog');
 Route::get('blog/{posts}', 'BlogController@show');
