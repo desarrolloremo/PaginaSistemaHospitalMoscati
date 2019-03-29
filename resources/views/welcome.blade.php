@@ -42,12 +42,12 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <!-- Why Choose Us Image -->
-                <div class="col-lg-6 ">
+                <div class="col-lg-4 ">
                     <br>
                     <img class="img-fluid rounded mx-auto d-block" src="img/SitioPrincipal/iconosheader/DOCTORESFOTO.png">
                 </div>
                 <!-- Why Choose Us Content -->
-                <div class="col-lg-6 order-lg-2 order-1">
+                <div class="col-lg-8 order-lg-2">
                     <div class="why_content">
                         <div class="section_title_container">
                             <div class="section_subtitle"></div>
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                         <div class="why_text">
-                            <p>En Hospital San José Moscati, brindamos calidad en nuestros servicios y para lograrlo, contamos
+                            <p>En <strong> Hospital San José Moscati </strong>, brindamos calidad en nuestros servicios y para lograrlo, contamos
                                 con personal calificado en cada una de las áreas y servicios. La capacitación es una de nuestras
                                 fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales en nuestra
                                 área.
@@ -98,13 +98,11 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <div class="">
                     <div class="section-header">
                         <a href="{{route('servicios')}}">
                             <h2> <i class="fas fa-caret-right"></i> Nuestros servicios</h2>
                         </a>
                     </div>
-                </div>
             </div>
         </div>
         <div class="row">

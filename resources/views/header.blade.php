@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="/css/framework.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/nosotros.css" />
 
 </head>
 
