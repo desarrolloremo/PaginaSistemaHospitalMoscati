@@ -49,9 +49,7 @@
 </div>
 
 <div class="section-header">
-	<a href="{{route('servicios')}}">
-		<h2> <i class="fas fa-caret-right"></i> Filosofía</h2>
-	</a>
+	<h2> <i class="fas fa-caret-right"></i> Filosofía</h2>
 </div>
 <div class="section-filosofia">
 	<div class="row">
@@ -72,7 +70,51 @@
 	</div>
 	<br><br><br><br>
 </div>
+<br>
+<div class="section-header">
+	<h2> <i class="fas fa-caret-right"></i> Directivos</h2>
+</div>
+<div class="container content-inner">
+	<br>
+	<div class="row">
+		<div class="col-sm-4">
+			<h5 class="titulonosotros" style="text-align:left;">Directora de Departamento
+			</h5>
+			<img src="img/SitioPrincipal/nosotros/doctor.png" srcset="img/SitioPrincipal/nosotros/doctor@2x.png 2x,
+					 img/SitioPrincipal/nosotros/doctor@3x.png 3x" class="doctor-photo">
+			
+				<h5 class="title-doctorname">
+					Dra. Elizabeth Martínez
+					<h6 class="title-doctorespecialidad">Pediatra</h6>
+				</h5>
+				<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+				<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+		</div>
+		<div class="col-sm-4">
+			<h5 class="titulonosotros" style="text-align:left;">Director General<br></h5>
+			<img src="img/SitioPrincipal/nosotros/doctor.png" srcset="img/SitioPrincipal/nosotros/doctor@2x.png 2x,
+				 img/SitioPrincipal/nosotros/doctor@3x.png 3x" class="doctor-photo">
+			<h5 class="title-doctorname">Dra. Elizabeth Martínez
+				<h6 class="title-doctorespecialidad">Pediatra</h6>
+			</h5>
 
+			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+		</div>
+
+		<div class="col-sm-4">
+			<h5 class="titulonosotros" style="text-align:left;">Gerente General<br></h5>
+			<img src="img/SitioPrincipal/nosotros/doctor.png" srcset="img/SitioPrincipal/nosotros/doctor@2x.png 2x,
+				 img/SitioPrincipal/nosotros/doctor@3x.png 3x" class="doctor-photo">
+			<h5 class="title-doctorname">Dra. Elizabeth Martínez
+				<h6 class="title-doctorespecialidad">Pediatra</h6>
+			</h5>
+
+			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+		</div>
+	</div>
+</div>
 
 <br>
 <br>
