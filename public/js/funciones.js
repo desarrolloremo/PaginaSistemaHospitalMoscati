@@ -82,14 +82,4 @@ $(document).ready(main);
         });
     }
 
-    /* 
- 
-    3. Nosotros instalacionesmouseenter
-https://codepen.io/gsanchezd/pen/yKZmdr
-    */
-
-    $(".thumb").mouseenter(function () {
-        $(".featured").attr("src", $(this).attr("src"));
-    });
-
 });

@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class ServiciosController extends Controller
 {
+
+    public function home()
+    {
+        return view('servicios.servicios');
+    }
     /**
      * Display a listing of the resource.
      *

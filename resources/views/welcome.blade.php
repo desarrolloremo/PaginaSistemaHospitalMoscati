@@ -112,8 +112,7 @@
                         <img src="img/SitioPrincipal/iconosheader/CEREBRO.png">
                     </div>
                     <h3>Neurofisiologia</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>El Departamento de Neurología ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados utilizados para el monitoreo de la epilepsia y la rehabilitación neurológica intensiva.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -122,8 +121,7 @@
                         <img src="img/SitioPrincipal/iconosheader/CORAZONICONO.png">
                     </div>
                     <h3>Cardiología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Nuestro objetivo para los pacientes es proporcionar un servicio inigualable de primer nivel en casos cardíacos complejos, que ofrezca los mejores resultados y la experiencia más exitosa para el paciente.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -132,8 +130,7 @@
                         <img src="img/SitioPrincipal/iconosheader/RIÑON.png">
                     </div>
                     <h3>Hemodialisis</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Contamos con centros de hemodiálisis en el que se encuentran máquinas de diálisis y se ofrece al paciente la valoración de un nefrólogo y nutriólogo además de brindar apoyo.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -142,8 +139,7 @@
                         <img src="img/SitioPrincipal/iconosheader/PARTO.png">
                     </div>
                     <h3>Ginecología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Ofrecemos una serie de recomendaciones para las pacientes de este servicio, en todas las etapas de su vida, desde la adolescencia hasta la maternidad .</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -152,8 +148,7 @@
                         <img src="img/SitioPrincipal/iconosheader/HUESOS.png">
                     </div>
                     <h3>Traumatología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Nos complace ofrecer tratamientos que no están disponibles en ningún otro lugar, y practicamos un compromiso continuo con la mejor experiencia posible con el paciente.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -162,8 +157,7 @@
                         <img src="img/SitioPrincipal/iconosheader/PIEICONO.png">
                     </div>
                     <h3>Ortopedia</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>El Departamento es reconocido internacionalmente por su excelencia en la atención ortopédica y el tratamiento mínimamente invasivo de las lesiones deportivas.</p>
                 </div>
             </div>
             <div class="col-sm-2"></div>
@@ -173,8 +167,7 @@
                         <img src="img/SitioPrincipal/iconosheader/PULMONES.svg">
                     </div>
                     <h3>Neumología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>EL departamento tiene como objetivo ofrecer un servicio integral para la prevención, el diagnóstico y tratamiento de las enfermedades respiratorias. </p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -183,8 +176,7 @@
                         <img src="img/SitioPrincipal/iconosheader/OIDOICONO.png">
                     </div>
                     <h3>Otorrinolaringología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Realizamos los procedimientos con las técnicas más modernas que nos ayudan al diagnóstico de cualquier padecimiento mejorando la calidad de vida del paciente.</p>
                 </div>
             </div>
         </div>
