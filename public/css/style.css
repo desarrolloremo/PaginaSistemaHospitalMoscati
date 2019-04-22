@@ -344,9 +344,13 @@ a.btn-bar {
     padding-left: 2%;
 }
 
-.estilosContenidoServicios h1{
+#rescontenido{
+    margin: 3%;
+}
+
+#rescontenido  h1{
     font-family: Avenir;
-    font-size: 31.3px;
+    font-size: 31px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -354,5 +358,31 @@ a.btn-bar {
     letter-spacing: normal;
     color: #1c2533;
     padding-top: 2%;
+    display: none;
 }
+
+#rescontenido p{
+    font-family: Avenir;
+    font-size: 20.8px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c2533;
+  }
+
+
+#rescontenido strong{
+    font-family: Avenir;
+    font-size: 25.3px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #1c2533;
+}
+
+
 

@@ -1000,7 +1000,7 @@ img {
 .service_box .service_icon{
 	width:70px;
 	height:70px;
-	margin: 0 auto;
+	margin: auto;
 	font-size:35px;
 	background: #1c2533;
 	line-height:70px;
@@ -1010,7 +1010,7 @@ img {
   transform: translateY(-100%);
 }
 .service_box .service_icon img{
-    height: 40px;
+    height: 50px;
 }
 .service_box .service_icon i{
 	color:#333;
@@ -1699,11 +1699,11 @@ Segundo menu
 .social-bar {
 	position: fixed;
 	right: 0px;
-	top: 300px;
+	top: 30%;
 	background-color: white;
   }
   .social-bar__item {
-	padding: 5px 5px 5px 10px;
+	padding: 2px 5px 2px 5px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
@@ -1720,8 +1720,8 @@ Segundo menu
 	border-radius: 3px;
   }
   .social-bar__item img{
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	object-fit: contain;
   }
 

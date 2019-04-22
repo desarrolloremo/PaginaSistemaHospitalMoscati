@@ -10,7 +10,7 @@
     font-stretch: normal;
     line-height: 1.52;
     letter-spacing: normal;
-    text-align: center;
+    text-align: left;
     color: #1c2533;
   }
 
@@ -23,6 +23,7 @@
     letter-spacing: normal;
     text-align: justify;
     color: #1c2533;
+    margin-left: 3%;
   }
 
   .La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise {
@@ -33,6 +34,7 @@
     line-height: 1.6;
     letter-spacing: normal;
     color: #1c2533;
+    text-align: justify;
   }
 
   @media (min-width: 580px) {
@@ -56,7 +58,7 @@
   font-stretch: normal;
   line-height: 1.92;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   color: #1c2533;
   }
 

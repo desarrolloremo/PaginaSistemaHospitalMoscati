@@ -8,7 +8,8 @@
 	<div class="section-header">
 		<h2> <i class="fas fa-caret-right"></i> Nuestros Servicios</h2>
 	</div>
-	{{-- <div class="row">
+	{{--
+	<div class="row">
 		<div class="col-sm-1">
 			<hr class="linea" style="width: 4px; height: 60%;">
 		</div>
@@ -30,11 +31,17 @@
 	</div>
 	<br>
 	<div class="row">
+
 		<div class="col-sm-2">
 			<div id="res" class="mx-auto"></div>
+			<div id="ocultarselectmobile">
+				<select class="form-control" id="resmobile" onchange="onclick=loadInfo(this.value)" >
+				</select>
+				<br>
+			</div>
 		</div>
 		<div class="col-sm-10 TituloEspeclidad">
-			<h4 id="tituloespec">Maternidad</h4>
+			<h4 id="tituloespec">Anestesiologia</h4>
 			<div id="rescontenido">
 				<h1>ANESTESIOLOGIA </h1>
 				<p>Las alergias se encuentran entre las enfermedades más comunes. Y, sin embargo, a menudo se pasan por alto. Si bien no
@@ -61,7 +68,6 @@
 			</div>
 		</div>
 	</div>
-
 	<br>
 	<br>
 	<br>
@@ -83,13 +89,19 @@
 			//console.log(this.responseText);
 
 			let datos = JSON.parse(this.responseText);
-			let res = document.querySelector('#res');
-			res.innerHTML = '';
-
+			
+			if (screen.width > 1024){
 			for (let items of datos) {
 				//console.log(items.nombreEspecialidad);
 				res.innerHTML += `<p id="${items.nombreEspecialidad}" onclick="loadInfo(this.id)" style='line-height: 1; cursor: pointer;' >${items.nombreEspecialidad}</p>`
-			}
+			}	
+		}
+		let resmobile = document.querySelector('#resmobile');
+			resmobile.innerHTML = '';
+			for (let items of datos) {
+				//console.log(items.nombreEspecialidad);
+				resmobile.innerHTML += `<option  id="${items.nombreEspecialidad}" onclick="loadInfo(this.id)">${items.nombreEspecialidad}</option>`
+			}	
 
 		}
 	};
@@ -115,8 +127,7 @@
 					if (element == items.nombreEspecialidad) {
 
 						rescontenido.innerHTML += `
-			
-			<div class="estilosContenidoServicios">${items.contenido}</div>`
+			${items.contenido}`
 					}
 				}
 
