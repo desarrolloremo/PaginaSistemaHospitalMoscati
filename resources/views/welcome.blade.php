@@ -38,7 +38,7 @@
     <h2><i class="fas fa-caret-right"></i> Excelencia y pasión por la vida <i class="fas fa-caret-left"></i></h2>
 </div>
 <div class="why">
-    <div style="background: rgb(28, 37, 51, .9)">
+    <div style="background: rgb(0, 37, 84, .9)">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <!-- Why Choose Us Image -->

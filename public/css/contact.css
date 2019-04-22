@@ -386,7 +386,6 @@ section
 {
 	width: 100%;
 	height: 60px;
-	padding-left: 18%;
 
 }
 .header.scrolled .header_content
@@ -420,13 +419,14 @@ section
 }
 .main_nav ul li ul
 {
-	display: none;
+display: none;
   position: absolute;
   list-style: none;
   margin-left: -3px;
   padding: 8px;
   padding: 0;
   overflow: hidden;
+  background: #002554;
 }
 
 .main_nav ul li ul li
@@ -451,7 +451,7 @@ section
 {
 	font-size: 19px;
 	font-weight: 600;
-	color: #404040;
+	color: #1c2533;;
 	white-space: nowrap;
 }
 .main_nav ul li a:hover,

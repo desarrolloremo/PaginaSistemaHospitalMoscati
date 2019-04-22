@@ -51,7 +51,7 @@
        
 
 
-      <div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
+      <div class="header_content d-flex flex-row align-items-center jusity-content-start">
 
         <!-- Logo -->
         <div class="logo">
@@ -62,7 +62,7 @@
           <ul class="d-flex flex-row align-items-center justify-content-start">
             <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
             <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
-            <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Servicios </a>
+            <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
               <ul>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
@@ -190,7 +190,6 @@
                 <li>+52 442 325 9354</li>
                 <li>+52 442-325 9360</li>
                 <li>@correo.com</li>
-                <li>contact@gmail.com</li>
 
               </ul>
             </div>
