@@ -19,11 +19,6 @@ Route::get('nosotros', function () {
     return view('nosotros');
 })->name('nosotros');
 
-
-Route::get('servicios', function () {
-    return view('servicios');
-})->name('servicios');
-
 Route::get('promocionesyservicios', function () {
     return view('promocionesyservicios');
 })->name('promocionesyservicios');

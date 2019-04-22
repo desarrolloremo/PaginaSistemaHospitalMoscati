@@ -61,11 +61,22 @@ ul
 	list-style: none;
 	margin-bottom: 0px;
 }
+ul li{
+	font-family: 'Avenir';
+	font-size: 18.5px;
+	line-height: 2.14;
+	font-weight: 500;
+	color: #525252;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	margin-left: 5%;
+}
 p
 {
 	font-family: 'Avenir';
 	font-size: 18.5px;
-	line-height: 2.14;
+	line-height: 1.5;
 	font-weight: 500;
 	color: #525252;
 	-webkit-font-smoothing: antialiased;
@@ -258,7 +269,7 @@ section
  
 .button_1 p
 {
-	background: #283751;
+	background: #003594;
 	border: solid 2px transparent;
 	display: block;
 	padding-left: 30px;
@@ -274,7 +285,7 @@ section
 	.emergencias
 	{
 		height: 46px;
-		background: #283751;
+		background: #003594;
 		border: solid 2px transparent;
 		display: block;
 		padding-left: 30px;
@@ -1244,7 +1255,7 @@ section
 {
 	display: block;
 	position: inherit;
-	background: #26292d;
+	background: url('../img/SitioPrincipal/iconosheader/FOTOfooter.png') no-repeat  center;
 }
 .footer_content
 {
@@ -1277,7 +1288,7 @@ section
 }
 .footer_about_text
 {
-	margin-top: 42px;
+	margin-top: 10px;
 }
 .footer_about_text p
 {
@@ -1292,11 +1303,11 @@ section
 }
 .footer_contact
 {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .contact_list
 {
-	margin-top: 34px;
+	margin-top: 5px;
 }
 .contact_list li
 {
@@ -1306,7 +1317,7 @@ section
 }
 .contact_list li:not(:last-child)
 {
-	margin-bottom: 12px;
+	margin-bottom: 1px;
 }
 .footer_location
 {
@@ -1315,7 +1326,7 @@ section
 .locations_list
 {
 	max-width: 180px;
-	margin-top: 42px;
+	margin-top: 5px;
 }
 .locations_list li
 {
@@ -1386,3 +1397,10 @@ section
 {
 	color: #1c2533;
 }
+
+@media (min-width: 570px) {
+	#ocultarselectmobile{
+		display: none;
+	}
+	
+	}

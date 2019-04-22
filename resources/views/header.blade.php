@@ -153,12 +153,13 @@
   </div>
 
   <footer class="footer">
-    <div>
+    <div style="background: rgb(0, 53, 148, 0.85)">
+      <br>
       <div class="container">
         <div class="row">
 
           <!-- Footer About -->
-          <div class="col-sm-6 footer_col">
+          <div class="col-sm-4 footer_col">
             <div class="footer_about">
               <div class="footer_logo">
                 <a href="#">
@@ -166,7 +167,7 @@
                   <div></div>
                 </a>
               </div>
-              <div class="footer_title">Siguenos en nuestras redes sociales</div>
+              <div class="footer_title">Síguenos en nuestras redes sociales</div>
               <div class="footer_about_text">
                 <!-- Header Social -->
                 <div class="social header_social">
@@ -196,14 +197,12 @@
           </div>
 
           <!-- Footer Locations -->
-          <div class="col-sm-2 footer_col">
-            <div class="footer_location">
+          <div class="col-sm-4 footer_col">
+            <div class="footer_contact">
               <div class="footer_title">Localización</div>
-              <ul class="locations_list">
-                <li>
+     
                   <div class="location_text" style="color:#fff">Boulevard, Av. de las Ciencias 2058, Juriquilla, Qro.</div>
-                </li>
-              </ul>
+                
             </div>
 
 
@@ -211,6 +210,7 @@
 
         </div>
       </div>
+      <br>
     </div>
 
   </footer>

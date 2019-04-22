@@ -42,12 +42,11 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <!-- Why Choose Us Image -->
-                <div class="col-lg-4 ">
-                    <br>
-                    <img class="img-fluid rounded mx-auto d-block" src="img/SitioPrincipal/iconosheader/DOCTORESFOTO.png">
+                <div class="col-lg-5 ">
+                    <img class="img-fluid" src="img/SitioPrincipal/iconosheader/DOCTORESFOTO.png" height="50px;">
                 </div>
                 <!-- Why Choose Us Content -->
-                <div class="col-lg-8 order-lg-2">
+                <div class="col-lg-7 order-lg-2">
                     <div class="why_content">
                         <div class="section_title_container">
                             <div class="section_subtitle"></div>
@@ -56,135 +55,151 @@
                             </div>
                         </div>
                         <div class="why_text">
-                            <p>En <strong> Hospital San José Moscati </strong>, brindamos calidad en nuestros servicios y para lograrlo, contamos
-                                con personal calificado en cada una de las áreas y servicios. La capacitación es una de nuestras
-                                fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales en nuestra
-                                área.
+                            <p>En <strong> Hospital San José Moscati </strong>, brindamos calidad en nuestros servicios y para
+                                lograrlo, contamos con personal calificado en cada una de las áreas y servicios. La capacitación
+                                es una de nuestras fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales
+                                en nuestra área.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+            <br>
             <div class="row text-center">
-                <div class="col-sm-1">
-                    <img class="img-why" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
+                <div class="col-sm-4 service_box">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="why_list_title">Contamos con más de 40 especialidades</div>
+                            <div class="why_list_text">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="why_list_title">Contamos con más de 40 especialidades</div>
-                    <div class="why_list_text">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
+                <div class="col-sm-4 service_box">
+                    <div class="row">
+                        <div class="col-sm-3">
+                                <img class="img-fluid" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
+                        </div>
+                        <div class="col-sm-9">
+                                <div class="why_list_title">Los mejores doctores</div>
+                                <div class="why_list_text">Nuestros profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-1">
-                    <img class="img-why" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
+                <div class="col-sm-4 service_box">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
+                        </div>
+                        <div class="col-sm-9">
+                                <div class="why_list_title">Equipo de enfermeras</div>
+                                <div class="why_list_text">Que mantienen una relación óptima<br> que permite una atención personalizada.</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="why_list_title">Los mejores doctores</div>
-                    <div class="why_list_text">Nuestros profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
-                </div>
-                <div class="col-sm-1">
-                    <img class="img-why" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
-                </div>
-                <div class="col-sm-3">
-                    <div class="why_list_title">Equipo de enfermeras</div>
-                    <div class="why_list_text">Que mantienen una relación óptima<br> que permite una atención personalizada.</div>
-                </div>
+
 
             </div>
             <br>
         </div>
-
+        <br>
     </div>
+
 </div>
+<br>
 <div class="services">
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                    <div class="section-header">
-                        <a href="{{route('servicios')}}">
-                            <h2> <i class="fas fa-caret-right"></i> Nuestros servicios</h2>
-                        </a>
-                    </div>
+                <div class="section-header">
+                    <a href="{{route('servicios')}}">
+                        <h2> <i class="fas fa-caret-right"></i> Nuestros servicios</h2>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/CEREBRO.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/CEREBRO.png">
                     </div>
                     <h3>Neurofisiologia</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>El Departamento de Neurología ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
+                        utilizados para el monitoreo de la epilepsia y la rehabilitación neurológica intensiva.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/CORAZONICONO.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/CORAZONICONO.png">
                     </div>
                     <h3>Cardiología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Nuestro objetivo para los pacientes es proporcionar un servicio inigualable de primer nivel en casos
+                        cardíacos complejos, que ofrezca los mejores resultados y la experiencia más exitosa para el paciente.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/RIÑON.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/RINON.png">
                     </div>
                     <h3>Hemodialisis</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Contamos con centros de hemodiálisis en el que se encuentran máquinas de diálisis y se ofrece al paciente
+                        la valoración de un nefrólogo y nutriólogo además de brindar apoyo.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/PARTO.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/PARTO.png">
                     </div>
                     <h3>Ginecología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Ofrecemos una serie de recomendaciones para las pacientes de este servicio, en todas las etapas de su
+                        vida, desde la adolescencia hasta la maternidad .</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/HUESOS.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/HUESOS.png">
                     </div>
                     <h3>Traumatología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Nos complace ofrecer tratamientos que no están disponibles en ningún otro lugar, y practicamos un compromiso
+                        continuo con la mejor experiencia posible con el paciente.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/PIEICONO.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/PIEICONO.png">
                     </div>
                     <h3>Ortopedia</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>El Departamento es reconocido internacionalmente por su excelencia en la atención ortopédica y el tratamiento
+                        mínimamente invasivo de las lesiones deportivas.</p>
                 </div>
             </div>
             <div class="col-sm-2"></div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/PULMONES.svg">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/PULMONES.png">
                     </div>
                     <h3>Neumología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>EL departamento tiene como objetivo ofrecer un servicio integral para la prevención, el diagnóstico y
+                        tratamiento de las enfermedades respiratorias. </p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">
-                        <img src="img/SitioPrincipal/iconosheader/OIDOICONO.png">
+                        <img src="img/SitioPrincipal/iconosheader/iconservicios/OIDOICONO.png">
                     </div>
                     <h3>Otorrinolaringología</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <p>Realizamos los procedimientos con las técnicas más modernas que nos ayudan al diagnóstico de cualquier
+                        padecimiento mejorando la calidad de vida del paciente.</p>
                 </div>
             </div>
         </div>
