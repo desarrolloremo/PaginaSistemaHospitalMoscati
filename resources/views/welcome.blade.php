@@ -66,18 +66,18 @@
             </div>
             <br>
             <div class="row text-center">
-                <div class="col-sm-4 service_box">
+                <div class="col-sm-3 service_boxintroduccion">
                     <div class="row">
                         <div class="col-sm-3">
                             <img class="img-fluid" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
                         </div>
                         <div class="col-sm-9">
-                            <div class="why_list_title">Contamos con más de 40 especialidades</div>
+                            <div class="why_list_title">Contamos con más de 30 especialidades</div>
                             <div class="why_list_text">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 service_box">
+                <div class="col-sm-3 service_boxintroduccion">
                     <div class="row">
                         <div class="col-sm-3">
                                 <img class="img-fluid" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 service_box">
+                <div class="col-sm-3 service_boxintroduccion">
                     <div class="row">
                         <div class="col-sm-3">
                             <img class="img-fluid" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
@@ -120,7 +120,11 @@
                 </div>
             </div>
         </div>
+        
         <div class="row">
+            <br>
+            <br>
+            <br>
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_icon">

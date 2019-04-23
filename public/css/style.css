@@ -330,6 +330,61 @@ a.btn-bar {
     right: 7px;
 }
 
+/*  Servicios*/
+.carouselloco {
+    perspective: 800px;
+    margin: 0;
+    overflow: hidden;
+    height: auto;
+    white-space: nowrap;
+}
+.pane {
+    --x: 0px;
+    --selected: 0;
+    --w: 200px;
+    --h: 200px;
+    --d: calc(var(--w) * 0.15);
+    --r: 0deg;
+    display: inline-block;
+    transform: translate(50vw, 50vh);
+}
+.pane .face {
+    font-size: calc(var(--h) * 0.75);
+    line-height: var(--h);
+    text-align: center;
+    color: #e6e6e6;
+    font-family: sans-serif;
+    width: var(--w);
+    background: #3d3d3d;
+    transform-origin: center;
+    transform: translate3D(calc(var(--w) * -0.5 - var(--x) * var(--w)), calc(var(--h) * -0.5), calc(-100px * var(--selected))) rotateY(var(--r));
+    transition: 250ms transform;
+}
+.pane .face, .pane .face:before, .pane .face:after {
+    height: var(--h);
+    content: '';
+    display: block;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    border: 2px solid black;
+}
+.pane .face:before, .pane .face:after {
+    width: var(--d);
+    background: #292929;
+    position: absolute;
+    top: 0;
+}
+.pane .face:before {
+    transform-origin: left;
+    transform: rotateY(-90deg) translateX(calc(-1 * var(--d)));
+    left: 0;
+}
+.pane .face:after {
+    transform-origin: right;
+    transform: rotateY(90deg) translateX(calc(var(--d)));
+    right: 0;
+}
+
 .TituloEspeclidad h4{
     top: 0;
     left: 0;

@@ -8,26 +8,80 @@
 	<div class="section-header">
 		<h2> <i class="fas fa-caret-right"></i> Nuestros Servicios</h2>
 	</div>
-	{{--
 	<div class="row">
-		<div class="col-sm-1">
-			<hr class="linea" style="width: 4px; height: 60%;">
-		</div>
-		<div>
-			<br>
-			<h4>Infraestructura</h6>
-		</div>
+		<hr class="linea" style="width: 3px; height: 30px;">
+		<h4 style="margin: 20px;">Infraestructura</h4>
 
-	</div> --}}
+		{{--
+		<div class="col-sm-1">
+			<hr class="linea" style="width: 3px; height: 100%;">
+		</div>
+		<div class="col-sm-4">
+
+		</div> --}}
+	</div>
+</div>
+
+<div class="carouselloco">
+	<div class="pane">
+		<div class="face">1</div>
+	</div>
+	<div class="pane">
+		<div class="face">2</div>
+	</div>
+	<div class="pane">
+		<div class="face">3</div>
+	</div>
+	<div class="pane">
+		<div class="face">4</div>
+	</div>
+	<div class="pane">
+		<div class="face">5</div>
+	</div>
+</div>
+
+
+
+
+<div class="container">
+
 	<div class="row">
-		<div class="col-sm-1">
-			<hr class="linea" style="width: 4px; height: 60%;">
+		<div class="col-sm-3">
+			<ul>
+				<li type='disc'>Elevadores</li>
+				<li type='disc'>Helipuerto</li>
+				<li type='disc'>Estacionamiento</li>
+				<li type='disc'>Gimnasio</li>
+			</ul>
 		</div>
-		<div>
-			<br>
-			<h4>Especialidades</h6>
+		<div class="col-sm-3">
+			<ul>
+				<li type='disc'>SPA</li>
+				<li type='disc'>Hotel y Suites</li>
+				<li type='disc'>Restaurantes y Cafeterías</li>
+				<li type='disc'>Roof Garden</li>
+			</ul>
 		</div>
-
+		<div class="col-sm-3">
+			<ul>
+				<li type='disc'>Aulas y Auditorio</li>
+				<li type='disc'>Consultorios</li>
+				<li type='disc'>Farmacia</li>
+				<li type='disc'>Tiendas de conveniencia</li>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<ul>
+				<li type='disc'>Elevadores</li>
+				<li type='disc'>Helipuerto</li>
+				<li type='disc'>Estacionamiento</li>
+				<li type='disc'>Gimnasio</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<hr class="linea" style="width: 3px; height: 30px;">
+		<h4 style="margin: 20px;">Especialidades</h4>
 	</div>
 	<br>
 	<div class="row">
@@ -35,7 +89,7 @@
 		<div class="col-sm-2">
 			<div id="res" class="mx-auto"></div>
 			<div id="ocultarselectmobile">
-				<select class="form-control" id="resmobile" onchange="onclick=loadInfo(this.value)" >
+				<select class="form-control" id="resmobile" onchange="onclick=loadInfo(this.value)">
 				</select>
 				<br>
 			</div>
@@ -73,6 +127,47 @@
 	<br>
 </div>
 <script>
+	"use strict";
+
+var PI = Math.PI,
+    floor = Math.floor,
+    min = Math.min,
+    max = Math.max;
+var TAU = PI * 2;
+var THIRD_PI = PI / 3;
+
+function cos(n) {
+  return Math.cos(n % TAU);
+}
+
+function map(n, a, b, c, d) {
+  return (n - a) * (d - c) / (b - a) + c;
+}
+
+if (location.href.includes('/fullcpgrid/')) {
+  document.body.style.transform = 'scale(0.8)';
+}
+
+var panes = Array.from(document.querySelectorAll('.pane'));
+var selected = 0;
+requestAnimationFrame(draw);
+var _time = 0;
+
+function draw(e) {
+  requestAnimationFrame(draw);
+  panes.forEach(function (pane, i) {
+    var t = map(i, selected, panes.length + selected, 0, 1);
+    pane.style.setProperty('--r', min(2, max(-2, t)) * -THIRD_PI * 2 + 'rad');
+    pane.style.setProperty('--x', selected);
+    pane.style.setProperty('--selected', selected === i ? 0 : 1);
+  });
+  var time = floor(e * 0.0005);
+
+  if (time !== _time) {
+    selected = (selected + 1) % panes.length;
+    _time = time;
+  }
+}
 	/*
 
 	Se carga la informacion dinamicamente a travez de un archivo JSON ya que no se conocia todas las secciones 

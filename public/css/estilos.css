@@ -988,14 +988,22 @@ img {
 /*********************************
 9. Services
 *********************************/
-  
-.service_box{
-	margin:20px 0;
-	padding:40px 20px;
+.service_boxintroduccion{
+	margin: 0px auto;
+    padding: 5px 6px;
 	text-align: center;
 	border-radius:5px;
 	border: 2px solid #e7e7e7;
 	transition: all 0.30s ease 0s;
+}
+
+.service_box{
+	margin: 20px 0;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #e7e7e7;
+    transition: all 0.30s ease 0s;
 }
 .service_box .service_icon{
 	width:70px;
@@ -1696,6 +1704,14 @@ time.icon:hover, time.icon:focus
 Segundo menu
 */
 
+@media (max-width: 400px) {
+
+    .social-bar {
+		display: none;
+	  }
+}
+
+
 .social-bar {
 	position: fixed;
 	right: 0px;
@@ -1720,8 +1736,8 @@ Segundo menu
 	border-radius: 3px;
   }
   .social-bar__item img{
-	height: 30px;
-	width: 30px;
+	height: 35px;
+	width: 35px;
 	object-fit: contain;
   }
 
