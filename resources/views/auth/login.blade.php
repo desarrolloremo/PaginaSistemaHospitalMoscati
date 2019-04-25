@@ -30,9 +30,14 @@
 </head>
 
 <body class="hold-transition login-page">
-    <div class="login-box">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="login-box center-block">
         <div class="login-box-body">
-            <a href="/"><img src="../img/SitioPrincipal/logo.png" alt="" srcset="" height="177"> </a>
+            <img  class="img-fluid" src="../img/SitioPrincipal/logo.png" alt="" width="100%"> 
             <br><br>
             <p class="login-box-msg">Ingresa los datos para iniciar sesion</p>
 

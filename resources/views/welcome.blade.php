@@ -66,10 +66,10 @@
             </div>
             <br>
             <div class="row text-center">
-                <div class="col-sm-3 service_boxintroduccion">
+                <div class="col-sm-4">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img class="img-fluid" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
+                            <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
                         </div>
                         <div class="col-sm-9">
                             <div class="why_list_title">Contamos con más de 30 especialidades</div>
@@ -77,25 +77,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 service_boxintroduccion">
+                <div class="col-sm-4">
                     <div class="row">
                         <div class="col-sm-3">
-                                <img class="img-fluid" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
+                               <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">Los mejores doctores</div>
-                                <div class="why_list_text">Nuestros profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
+                                <div class="why_list_text">Nuestros equipo de profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 service_boxintroduccion">
+                <div class="col-sm-4">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img class="img-fluid" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
+                            <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">Equipo de enfermeras</div>
-                                <div class="why_list_text">Que mantienen una relación óptima<br> que permite una atención personalizada.</div>
+                                <div class="why_list_text">Altamente calificadas que mantienen una relación óptima que permite una atención personalizada.</div>
                         </div>
                     </div>
                 </div>

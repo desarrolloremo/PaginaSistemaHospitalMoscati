@@ -30,7 +30,12 @@
 </head>
 
 <body class="hold-transition register-page">
-    <div class="login-box">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="login-box center-block">
         <div class="login-box-body">
             <a href="/"><img src="../img/SitioPrincipal/logo.png" alt="" srcset="" height="177"> </a>
             <br><br>

@@ -11,14 +11,6 @@
 	<div class="row">
 		<hr class="linea" style="width: 3px; height: 30px;">
 		<h4 style="margin: 20px;">Infraestructura</h4>
-
-		{{--
-		<div class="col-sm-1">
-			<hr class="linea" style="width: 3px; height: 100%;">
-		</div>
-		<div class="col-sm-4">
-
-		</div> --}}
 	</div>
 </div>
 
@@ -45,7 +37,7 @@
 
 <div class="container">
 
-	<div class="row">
+	<div class="row" id="Servicioslistas">
 		<div class="col-sm-3">
 			<ul>
 				<li type='disc'>Elevadores</li>

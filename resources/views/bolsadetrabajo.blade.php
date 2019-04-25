@@ -20,11 +20,11 @@
                 <p class="mg-lg text-justify ">
                     Puedes ver las vacantes disponibles y contactarnos por los siguientes medios:
                 </p>
-                <p>
-                    <span><a href="" target="_blank"><i class="fa fa-laptop fa-2x" aria-hidden="true"></i> Computrabajo</a></span><br><br>
-                    <span><a href="" target="_blank"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i> Facebook</a> </span><br><br>
-                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> Contacto: rh@moscati.com.mx <br>
-                </p>
+                <div>
+                    <a style="color:#525252" href="https://www.facebook.com/hospitalsanjosemoscati/" target="_blank"><i class="fa fa-laptop fa-2x"></i> Computrabajo</a><br><br>
+                    <a style="color:#525252" href="https://www.facebook.com/hospitalsanjosemoscati/" target="_blank"><i class="fab fa-facebook fa-2x"></i> Facebook</a> <br><br>
+                    <i class="fa fa-envelope fa-2x"></i> Contacto: rh@moscati.com.mx <br>
+                </div>
             </div>
         </div>
     </div>

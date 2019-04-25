@@ -928,6 +928,7 @@ img {
 }
 .why_list_text
 {
+	text-align: justify;
 	font-size: 16px;
 	font-weight: 500;
 	color: #ffffff;
@@ -989,12 +990,15 @@ img {
 9. Services
 *********************************/
 .service_boxintroduccion{
-	margin: 0px auto;
-    padding: 5px 6px;
-	text-align: center;
 	border-radius:5px;
-	border: 2px solid #e7e7e7;
+	border: 1px solid #e7e7e7;
 	transition: all 0.30s ease 0s;
+}
+
+.iconobienvenida{
+	height: 70px;
+	width: 70px;
+	margin-bottom: 10px;
 }
 
 .service_box{
@@ -1018,7 +1022,7 @@ img {
   transform: translateY(-100%);
 }
 .service_box .service_icon img{
-    height: 50px;
+    height: 40px;
 }
 .service_box .service_icon i{
 	color:#333;

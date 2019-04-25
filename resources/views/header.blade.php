@@ -35,20 +35,20 @@
     <header class="header trans_400">
       <div class="row">
         <div class="col-lg-4" style="padding-right: 0px; padding-left: 0px;">
-            <div class="section-rojo">
-                <i class="fas fa-phone" style="margin-left: 20%;"></i>  URGENCIAS: +52 442 614 7901
-            </div>
+          <div class="section-rojo">
+            <i class="fas fa-phone" style="margin-left: 20%;"></i> URGENCIAS: +52 442 614 7901
+          </div>
         </div>
         <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
-            <div class="emergencias">
-                <a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/HospitalMoscati"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-              </div>
+          <div class="emergencias">
+            <a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/HospitalMoscati"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </div>
         </div>
-        
+
       </div>
-       
+
 
 
       <div class="header_content d-flex flex-row align-items-center jusity-content-start">
@@ -65,8 +65,8 @@
             <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
               <ul>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
-                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
-                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
+                  <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
+                    <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
               </ul>
               </li>
               <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
@@ -100,26 +100,38 @@
           <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
           <li class="submenu">
             <a href="#">Servicios <i class="fas fa-angle-down"></i></a>
-            <ul  class="children">
+            <ul class="children">
               <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
-              <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
-              <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
+                <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
+                  <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
             </ul>
             </li>
-          <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
-          <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
-          <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Noticias</a></li>
-          <li class="{{ Request::is('bolsadetrabajo') ? 'active' : '' }}"><a href="{{route('bolsadetrabajo')}}">Bolsa de trabajo</a></li>
-          <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
+            <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
+            <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
+            <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Noticias</a></li>
+            <li class="{{ Request::is('bolsadetrabajo') ? 'active' : '' }}"><a href="{{route('bolsadetrabajo')}}">Bolsa de trabajo</a></li>
+            <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
+
+            <li class="submenu">
+              <a href="#">Mas Servicios <i class="fas fa-angle-down"></i></a>
+              <ul class="children">
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('admin.dashboard')}}">Acceso medico</a>
+                  <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('menulateral.preadmision')}}">Pre-admisión hospitalaria</a>
+                    <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('buscarpaciente')}}">Laboratorio</a>
+                      <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('menulateral.rentaventaconsultorios')}}">Renta consultorio</a>
+                        <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"> <a href="{{route('buscarpaciente')}}">Buscar paciente</a>
+
+              </ul>
+              </li>
         </ul>
       </nav>
       <div class="menu_extra">
       </div>
       <div class="social menu_social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/HospitalMoscati"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
@@ -128,7 +140,7 @@
   @yield('contenido')
   <div class="social-bar">
     <div class="social-bar__item social-bar__fb">
-      <a href="{{route('admin.dashboard')}}" title="Acceso medico"><img src="/img/SitioPrincipal/icons/acceso-medico@3x.png" alt=""></a>
+        <a href="{{route('admin.dashboard')}}" title="Hacer cita"><img src="/img/SitioPrincipal/icons/acceso-medico@3x.png" alt=""></a>
     </div>
 
     <div class="social-bar__item social-bar__fb">
@@ -199,14 +211,9 @@
           <div class="col-sm-4 footer_col">
             <div class="footer_contact">
               <div class="footer_title">Localización</div>
-     
-                  <div class="location_text" style="color:#fff">Boulevard, Av. de las Ciencias 2058, Juriquilla, Qro.</div>
-                
+              <div class="location_text" style="color:#fff">Boulevard, Av. de las Ciencias 2058, Juriquilla, Qro.</div>
             </div>
-
-
           </div>
-
         </div>
       </div>
       <br>
@@ -218,9 +225,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"

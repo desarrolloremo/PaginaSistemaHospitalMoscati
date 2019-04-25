@@ -16,6 +16,12 @@ class ServiciosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function promociones()
+    {
+        return view(' servicios.promocionesyaseguradoras');
+    }
+   
     public function index()
     {
         //

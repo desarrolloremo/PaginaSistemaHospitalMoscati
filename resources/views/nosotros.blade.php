@@ -47,7 +47,7 @@
 		</div>
 	</div>
 </div>
-
+<br>
 <div class="section-header">
 	<h2> <i class="fas fa-caret-right"></i> Filosofía</h2>
 </div>
