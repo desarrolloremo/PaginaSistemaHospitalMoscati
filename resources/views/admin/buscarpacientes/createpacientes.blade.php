@@ -19,20 +19,20 @@
                 </div>
                 <div class="form-group">
                     <label>Nombre de paciente</label>
-                    <input name="nombre" class="form-control" placeholder="Ingrese el nombre">
+                    <input name="nombre" class="form-control" placeholder="Ingrese el nombre" required>
                 </div>
                 <div class="form-group">
                     <label>Apellido Paterno</label>
-                    <input name="apellidoP" class="form-control" placeholder="Ingrese la apellido paterno">
+                    <input name="apellidoP" class="form-control" placeholder="Ingrese la apellido paterno" required>
                 </div>
                 <div class="form-group">
                     <label>Apellido Materno</label>
-                    <input name="apellidoM" class="form-control" placeholder="Ingrese la apellido materno">
+                    <input name="apellidoM" class="form-control" placeholder="Ingrese la apellido materno" required>
                 </div>
                 <div class="form-group">
                     <label>Sexo</label>
 
-                    <select name="sexo" class="form-control">
+                    <select name="sexo" class="form-control" required>
                                 <option value="Femenimo">Femenimo</option>
                                 <option value="Masculino">Masculino</option>
                                
@@ -42,7 +42,7 @@
 
                 <div class="form-group">
                     <label>Caracteristicas</label>
-                    <input name="caracteristicas" class="form-control" placeholder="Ingrese algunas señas o vesteminentas del paciente">
+                    <input name="caracteristicas" class="form-control" placeholder="Ingrese algunas señas o vesteminentas del paciente" required>
                 </div>
                 <div class="form-group">
                     <label>Unidad de ingreso</label>
@@ -52,7 +52,7 @@
                                            
                                           </select>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Doctor</i></button>
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Paciente</i></button>
             </div>
         </form>
     </div>

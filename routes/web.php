@@ -83,7 +83,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth
     Route::post('posts', 'PostController@store')->name('admin.blognoticias.store');             //PUBLICAR
     Route::put('posts/{post}', 'PostController@update')->name('admin.blognoticias.update');     //UPDATE
     Route::get('posts/{post}/delete', 'PostController@destroy')->name('admin.blognoticias.delete');     //DELETE
-    Route::post('posts/{post}/photos', 'PhotosBlogController@store')->name('admin.post.photos.store');     //DELETE
+    Route::post('posts/{post}/photos', 'PhotosBlogController@store')->name('admin.post.photos.store');     //LEER
+    Route::delete('photo/{photo}', 'PhotosBlogController@destroy')->name('admin.photos.destroy');     //DELETE
     /**
      *Directorio
      */
@@ -92,7 +93,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth
     Route::post('directorio', 'DirectorioDoctorControler@store')->name('admin.directoriomedico.store');                     //PUBLICAR
     Route::get('directorio/{post}', 'DirectorioDoctorControler@edit')->name('admin.directoriomedico.editdirectorio');       //UPDATE 
     Route::put('directorio/{post}', 'DirectorioDoctorControler@update')->name('admin.directoriomedico.update');             //UPDATE
-    Route::get('directorio/{post}/delete', 'DirectorioDoctorControler@destroy')->name('admin.directoriomedico.delete');     //DELETE
+    Route::delete('directorio/{post}/delete', 'DirectorioDoctorControler@destroy')->name('admin.directoriomedico.delete');     //DELETE
 
     /**
      * Bolsa de trabajo

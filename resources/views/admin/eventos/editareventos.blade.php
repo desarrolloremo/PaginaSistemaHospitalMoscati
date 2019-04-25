@@ -14,13 +14,13 @@
 <!-- Default box -->
 <div class="box">
     <div class="box-header with-border">
-        <h3 class="box-title">Ingrese los datos del proximo evento</h3>
+        <h3 class="box-title">Ingrese los datos del  evento a actualizar</h3>
         <div class="box-tools pull-right">
         </div>
     </div>
     <div class="box-body">
-        <form method="POST" action="{{ route('admin.eventos.store')}}">
-            {{csrf_field()}}
+        <form method="POST" action="{{ route('admin.eventos.update',$post)}}">
+            {{csrf_field()}} {{ method_field('PUT')}}
             <div class="col-sm-4">
                 <div class="card-body">
                     <div class="form-group">
@@ -66,7 +66,7 @@
                     <textarea name="body" id="editor">{{Request::old('body', $post->body)}}</textarea>
 
                 </div>
-                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Trabajo</i></button>
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Evento</i></button>
             </div>
         </form>
     </div>

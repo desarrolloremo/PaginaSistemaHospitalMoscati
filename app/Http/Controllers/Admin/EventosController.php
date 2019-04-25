@@ -102,8 +102,27 @@ class EventosController extends Controller
     }
 
    
-    public function update(Request $request, $id)
+    public function update(Eventos $post, Request $request)
     {
+        $this->validate($request, [
+            'nombre' => 'required',
+            'tipoevento' => 'required',
+            'duracion' => 'required',
+            'lugar' => 'required',
+            'fechaevento' => 'required',
+            'body' => 'required',
+
+        ]);
+        $post->nombre = $request->get('nombre');
+        $post->tipoevento = $request->get('tipoevento');
+        $post->duracion = $request->get('duracion');
+        $post->lugar = $request->get('lugar');
+        $post->fechaevento = Carbon::parse($request->get('fechaevento'));
+        $post->body = $request->get('body');
+
+        $post->save();
+        Alert::success('Evento editado', 'Se ha realizado correctamente');
+        return redirect()->route('admin.buscarpacientes.verpacientes', $post);
     }
 
  

@@ -26,4 +26,12 @@ class PhotosBlogController extends Controller
             'blog_id' => $post->id
         ]);
     }
+
+    public function destroy(PhotosBlog $photo){
+
+        $photo->delete();
+
+        alert()->success('Imagen eliminado correctamente');
+        return back()->withInput();
+    }
 }

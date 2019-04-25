@@ -1,0 +1,7 @@
+
+
+#Crear modelo y migracion con artisan
+php artisan make:model fruta -m 
+
+#Crear controler con metodos
+php artisan make:controller TareasController --resource

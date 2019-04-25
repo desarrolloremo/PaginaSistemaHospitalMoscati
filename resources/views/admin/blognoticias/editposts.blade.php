@@ -21,7 +21,7 @@
     <div class="box-body">
         <div class="col-md-8">
             <form method="POST" action="{{ route('admin.blognoticias.update',$post)}}">
-                {{csrf_field()}} {{ method_field('PUT')}} 
+                {{ csrf_field()}} {{ method_field('PUT') }}
                 <div class="card">
 
                     <div class="card-body">
@@ -35,7 +35,6 @@
                             <label>Contenido de la publicacion</label>
                             <textarea name="body" id="editor">{{Request::old('body', $post->body)}}</textarea>
                         </div>
-
                     </div>
                 </div>
         </div>
@@ -44,19 +43,20 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label>Extracto de la publicacion</label>
-                        <textarea class="form-control" name="excerpt" placeholder="Ingresa una breve descripcion del articulo" >{{Request::old('excerpt', $post->excerpt)}} </textarea>
+                        <textarea class="form-control" name="excerpt" placeholder="Ingresa una breve descripcion del articulo">{{Request::old('excerpt', $post->excerpt)}} </textarea>
                     </div>
                     <label>Fecha en que se publicara</label><br>
                     <div class="input-group date">
                         <div class="input-group-addon">
                             <i class="fa fa-calendar"></i>
                         </div>
-                        <input name="published_at" type="text" value="{{old('published_at', $post->published_at)}}" class="form-control pull-right" id="datepicker">
+                        <input name="published_at" type="text" value="{{old('published_at', $post->published_at)}}" class="form-control pull-right"
+                            id="datepicker">
                     </div>
                     <br>
                     <div class="form-group">
                         <label>Categoria:</label>
-                        <input name="categoria" class="form-control"  value="{{old('categoria', $post->categoria)}}" placeholder="Ingrese la categoria del articulo">
+                        <input name="categoria" class="form-control" value="{{old('categoria', $post->categoria)}}" placeholder="Ingrese la categoria del articulo">
                     </div>
                     <div class="form-group">
                         <label>Imagenes:</label>
@@ -65,6 +65,10 @@
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary btn-block">Guardar Publicacion</button>
                     </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -72,7 +76,24 @@
         </form>
     </div>
     <!-- /.box-body -->
+    <div class="card">
+        <div class="card-body">
+                @foreach ($post->photos as $photo)
+            <form method="POST" action="{{ route('admin.photos.destroy',$photo)}}">
+                {{ csrf_field() }} {{ method_field('DELETE') }}
 
+                <div class="row">
+                    
+                    <div class="col-sm-2">
+                        <button class="btn btn-danger btn-xs" style="position:absolute"><i class="fas fa-times"></i></button>
+                        <img src="{{ url($photo->url)}}" class="img-responsive" alt="">
+                    </div>
+
+                    @endforeach
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 <!-- /.box -->
 @endsection
@@ -92,6 +113,7 @@
           autoclose: true
         })
         CKEDITOR.replace( 'editor' );
+        CKEDITOR.config.height = 400;
         var myDropzone = new Dropzone('.dropzone',{
             url: '/admin/posts/{{$post->url}}/photos',
             paramName: 'photo',
@@ -112,5 +134,4 @@
             Dropzone.autoDiscover = false;
 
 </script>
-
 @endpush

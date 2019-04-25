@@ -63,6 +63,15 @@ class BuscarPacienteController extends Controller
     public function store(Request $request)
     {
 
+        $this->validate($request, [
+            'nombre' => 'required',
+            'apellidoP' => 'required',
+            'apellidoM' => 'required',
+            'sexo' => 'required',
+            'caracteristicas' => 'required',
+            'unidadingreso' => 'required',
+        ]);
+
         $post = BuscarPaciente::create([
             'nombre' => $request->get('nombre'),
             'apellidoP' => $request->get('apellidoP'),
@@ -74,7 +83,7 @@ class BuscarPacienteController extends Controller
         ]);
 
 
-        Alert::success('Trabajo guardado', 'Se ha realizado correctamente');
+        Alert::success('Paciente guardado', 'Se ha realizado correctamente');
         return redirect()->route('admin.buscarpacientes.verpacientes');
     }
 
@@ -110,6 +119,14 @@ class BuscarPacienteController extends Controller
     public function update(BuscarPaciente $post, Request $request)
     {
 
+        $this->validate($request, [
+            'nombre' => 'required',
+            'apellidoP' => 'required',
+            'apellidoM' => 'required',
+            'sexo' => 'required',
+            'caracteristicas' => 'required',
+            'unidadingreso' => 'required',
+        ]);
         $post->nombre = $request->get('nombre');
         $post->apellidoP = $request->get('apellidoP');
         $post->apellidoM = $request->get('apellidoM');

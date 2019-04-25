@@ -66,7 +66,7 @@
                     <textarea name="body" id="editor" cols="100" rows="100"></textarea>
 
                 </div>
-                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Trabajo</i></button>
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Evento</i></button>
             </div>
         </form>
     </div>

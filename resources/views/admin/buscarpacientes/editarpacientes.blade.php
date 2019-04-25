@@ -14,10 +14,7 @@
 <!-- Default box -->
 <div class="box">
     <div class="box-header with-border">
-
-
         <div class="box-tools pull-right">
-
         </div>
     </div>
     <div class="box-body">
@@ -61,7 +58,7 @@
                      
                      </select>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Trabajo</i></button>
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-save"> Guardar Paciente</i></button>
             </div>
         </form>
     </div>
