@@ -9,7 +9,12 @@
 
   <article class="post w-image">
     @if ($post->photos->count())
-    <img src="{{ $post->photos->first()->url}}" alt="Imagen blog" style="height: 400px; width: 100%"> @endif
+    <img src="{{ url($post->photos->first()->url)}}" alt="Imagen blog" style="height: 400px; width: 100%"> 
+    @elseif($post->iframe)
+    <div class="video">
+      {!! $post->iframe !!}
+    </div>
+    @endif
     <div class="content-post">
       <header class="container-flex space-between">
         <div class="date">
@@ -33,11 +38,10 @@
   </article>
 </div>
 @endforeach
-<div class="paginador">
+<div class="pagination mx-auto" style="width: 200px;">
   {!! $posts->render() !!}
   <br>
   <br>
   <br>
 </div>
-
 @endsection

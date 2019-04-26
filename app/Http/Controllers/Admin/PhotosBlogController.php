@@ -18,18 +18,21 @@ class PhotosBlogController extends Controller
             'photo' => 'required|image|max:3064'
         ]);
 
-        $photo = request()->file('photo')->store('public');
-
+  
+        $photo = request()->file('photo')->store('posts','public');
 
         PhotosBlog::create([
             'url' => Storage::url($photo),
             'blog_id' => $post->id
-        ]);
+     
+        ]); 
     }
 
     public function destroy(PhotosBlog $photo){
 
         $photo->delete();
+        $photoPath = str_replace('storage','public',$photo->url);
+        Storage::delete ($photoPath);
 
         alert()->success('Imagen eliminado correctamente');
         return back()->withInput();

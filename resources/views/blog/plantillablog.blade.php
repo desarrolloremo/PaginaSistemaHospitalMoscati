@@ -12,6 +12,10 @@
             <article class="post w-image">
                 @if ($posts->photos->count())
                 <figure><img src="{{ $posts->photos->first()->url}}" alt="Imagen blog" style="height: 400px; width: 100%"></figure>
+                @elseif($posts->iframe)
+                <div class="video">
+                    {!! $posts->iframe !!}
+                </div>
                 @endif
                 <div class="content-post">
                     <header class="container-flex space-between">
@@ -24,7 +28,7 @@
                     </header>
                     <h1>{{$posts->title}}</h1>
                     <div class="divider"></div>
-                   
+
                     <article>
                         {!! $posts->body !!}
                     </article>

@@ -63,6 +63,12 @@
                         <div class="dropzone"></div>
                     </div>
                     <div class="form-group">
+                        <label>Contenido de video o audio</label>
+                        <p>Los atributos deben ser width="100%" height="400" para videos</p>
+                        <textarea name="iframe" rows="4" class="form-control" placeholder="Ingrese el iframe del video a publicar">{{Request::old('iframe', $post->iframe)}}</textarea>
+                    </div>
+                    <br>
+                    <div class="form-group">
                         <button type="submit" class="btn btn-primary btn-block">Guardar Publicacion</button>
                     </div>
 
