@@ -14,26 +14,61 @@
 	</div>
 </div>
 
-<div class="carouselloco">
-	<div class="pane">
-		<div class="face">1</div>
-	</div>
-	<div class="pane">
-		<div class="face">2</div>
-	</div>
-	<div class="pane">
-		<div class="face">3</div>
-	</div>
-	<div class="pane">
-		<div class="face">4</div>
-	</div>
-	<div class="pane">
-		<div class="face">5</div>
+<div class="content-all">
+	<div class="content-carrousel">
+			<figure><img  class='zoom' src="https://loremflickr.com/320/200" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/201" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/202" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/203" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/204" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/205" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/206" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/207" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/208" /></figure>
+			<figure><img  class='zoom' src="https://loremflickr.com/320/209" /></figure>
 	</div>
 </div>
 
+	{{-- <div class="slider">
+	  <div class="slide">
+<div class="zoom">
+			<img class="zoom" src="https://loremflickr.com/320/200" />
+			<img class="zoom" src="https://loremflickr.com/320/201" />
+			<img class="zoom" src="https://loremflickr.com/320/202" />
+			<img class="zoom" src="https://loremflickr.com/320/203" />
+			<img class="zoom" src="https://loremflickr.com/320/204" />
+			<img class="zoom" src="https://loremflickr.com/320/205" />
+			<img class="zoom" src="https://loremflickr.com/320/206" />
+			<img class="zoom" src="https://loremflickr.com/320/207" />
+			<img class="zoom" src="https://loremflickr.com/320/208" />
+			<img class="zoom" src="https://loremflickr.com/320/209" />
+			<img class="zoom" src="https://loremflickr.com/320/210" />
+			<img class="zoom" src="https://loremflickr.com/320/211" />
+			<img class="zoom" src="https://loremflickr.com/320/212" />
+			<img class="zoom" src="https://loremflickr.com/320/213" />
+	  </div>
+	  <div class="slide">
+		<img class="zoom" src="https://loremflickr.com/320/200" />
+		<img class="zoom" src="https://loremflickr.com/320/201" />
+		<img class="zoom" src="https://loremflickr.com/320/202" />
+		<img class="zoom" src="https://loremflickr.com/320/203" />
+		<img class="zoom" src="https://loremflickr.com/320/204" />
+		<img class="zoom" src="https://loremflickr.com/320/205" />
+		<img class="zoom" src="https://loremflickr.com/320/206" />
+		<img class="zoom" src="https://loremflickr.com/320/207" />
+		<img class="zoom" src="https://loremflickr.com/320/208" />
+		<img class="zoom" src="https://loremflickr.com/320/209" />
+		<img class="zoom" src="https://loremflickr.com/320/210" />
+		<img class="zoom" src="https://loremflickr.com/320/211" />
+		<img class="zoom" src="https://loremflickr.com/320/212" />
+		<img class="zoom" src="https://loremflickr.com/320/213" />
+	  </div>
+	</div>
+ </div> --}}
 
-
+<br><br>
+<br><br><br><br><br>
+<br><br><br>
 
 <div class="container">
 

@@ -23,4 +23,21 @@ class Blog extends Model
         ->where('published_at','<=', Carbon::now())
         ->latest('published_at');
     }
+
+
+    // public function setTitleAttribute($title){
+    //     $this->attributes['title'] = $title;
+
+    //     $url = str_slug($title);
+
+    //     $duplicateUrlCount = Blog::where('url','LIKE', "{$url}%")->count();
+ 
+
+    //     if($duplicateUrlCount)
+    //     { 
+    //         $url .=  "-" . uniqid();
+    //     }
+
+    //     $this->attributes['url'] = $url;
+    // }
 } 

@@ -3,10 +3,12 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Blog;
+use App\PhotosBlog;
 use Carbon\Carbon;
 use Alert;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 
 class PostController extends Controller
 {
@@ -33,10 +35,10 @@ class PostController extends Controller
 
         $this->validate($request, ['title' => 'required', ]);
 
-        $post = Blog::create([
-            'title' => $request->get('title'),
-            'url' => str_slug($request->get('title')),
-        ]);
+        $post = Blog::create($request->only('title'));
+        $post->url = str-slug($request->get('title') . "-$post->id");
+        $post->save();
+
         return redirect()->route('admin.blognoticias.editposts', $post);
     }
 
@@ -61,9 +63,13 @@ class PostController extends Controller
         return redirect()->route('admin.blognoticias.verposts', $post);
     }
 
-    public function destroy($id)
+    public function destroy(Blog $post)
     {
-        Blog::destroy($id);
+
+        $post->photos()->delete();
+
+        $post->delete();
+
         alert()->success('Elemento eliminado correctamente');
         return redirect('/admin/posts');
     }

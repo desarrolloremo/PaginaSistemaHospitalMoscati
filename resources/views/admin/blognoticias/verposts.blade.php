@@ -37,7 +37,7 @@
                     <td>{{$post->published_at}}</td>
                     <td>
                         <a href="{{route('admin.blognoticias.editposts',$post)}}" class="btn btn-s btn-info"><i class="fa fa-pencil-alt"></i></a>
-                        <a href="{{route('admin.blognoticias.delete',$post->id)}}" class="btn btn-s btn-danger"
+                        <a href="{{route('admin.blognoticias.delete',$post)}}" class="btn btn-s btn-danger"
                             onclick="return confirm('Esta seguro que desea eliminar este registro');"><i class="fa fa-times"></i></a>
                     </td>
                 </tr>
