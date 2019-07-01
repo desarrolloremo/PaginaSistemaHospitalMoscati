@@ -19,7 +19,7 @@
                 </h3>
                 <p class="mg-lg text-justify ">
                     Puedes ver las vacantes disponibles y contactarnos por los siguientes medios:
-                </p>
+                </p><br>
                 <div>
                     <a style="color:#525252" href="https://www.facebook.com/hospitalsanjosemoscati/" target="_blank"><i class="fa fa-laptop fa-2x"></i> Computrabajo</a><br><br>
                     <a style="color:#525252" href="https://www.facebook.com/hospitalsanjosemoscati/" target="_blank"><i class="fab fa-facebook fa-2x"></i> Facebook</a> <br><br>

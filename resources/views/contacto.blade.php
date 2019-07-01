@@ -26,12 +26,12 @@
             <!-- Contact Content -->
             <div class="col-lg-5 offset-lg-1 contact_col">
                 <div class="contact_content">
-                    <div class="contact_content_title">Escríbemos</div>
+                    <div class="contact_content_title">Escribenos</div>
                     <div class="contact_content_text">
-                        <p>Escríbemos nos contactaremos a la brevedad</p>
+                        <p>Escribenos nos contactaremos a la brevedad</p>
                     </div>
                     <div class="direct_line d-flex flex-row align-items-center justify-content-start">
-                        <div class="direct_line_title text-center">Telefono</div>
+                        <div class="direct_line_title text-center">Teléfono</div>
                         <div class="direct_line_num text-center">+52 442 7953 324</div>
                     </div>
                     <div class="contact_info">
@@ -41,7 +41,7 @@
                                 <div>Boulevard, Av. de las Ciencias 2058, Juriquilla, Qro.</div>
                             </li>
                             <li class="d-flex flex-row align-items-start justify-content-start">
-                                <div>Telefono</div>
+                                <div>Teléfono</div>
                                 <div>+52 442-325-93-54</div>
                             </li>
                             <li class="d-flex flex-row align-items-start justify-content-start">

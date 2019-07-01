@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="form-group row">
-                        <label for="txtTelefono" class="col-sm-12 col-form-label">Telefono:</label>
+                        <label for="txtTelefono" class="col-sm-12 col-form-label">Teléfono:</label>
                         <div class="col-sm-12">
                             <input name="Telefono" type="tel" class="form-control" placeholder="(Código de área) Número" required/>
                         </div>
@@ -55,7 +55,7 @@
             <div class="row" style="margin:20px">
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        <label for="txtdireccion" class="col-sm-12 col-form-label">Direccion:</label>
+                        <label for="txtdireccion" class="col-sm-12 col-form-label">Dirección:</label>
                         <div class="col-sm-12">
                             <input name="direccion" type="text" class="form-control" required/>
                         </div>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        <label for="txtDireccionAcompañante" class="col-sm-12 col-form-label">Direccion Acompañante:</label>
+                        <label for="txtDireccionAcompañante" class="col-sm-12 col-form-label">Dirección Acompañante:</label>
                         <div class="col-sm-12">
                             <input name="DireccionAcompañante" type="text" class="form-control" required/>
                         </div>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        <label for="txtTelefonoAcompañante" class="col-sm-12 col-form-label">Telefono Acompañante:</label>
+                        <label for="txtTelefonoAcompañante" class="col-sm-12 col-form-label">Teléfono Acompañante:</label>
                         <div class="col-sm-12">
                             <input name="TelefonoAcompañante" type="text" class="form-control" required/>
                         </div>

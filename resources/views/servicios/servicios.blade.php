@@ -68,11 +68,19 @@
 
 <br><br>
 <br><br><br><br><br>
-<br><br><br>
+<br><br><br><br>
 
 <div class="container">
 
 	<div class="row" id="Servicioslistas">
+	 	<div class="col-sm-3">
+		{{-- 	<ul>
+				<li type='disc'>Elevadores</li>
+				<li type='disc'>Helipuerto</li>
+				<li type='disc'>Estacionamiento</li>
+				<li type='disc'>Gimnasio</li>
+			</ul> --}}
+		</div>
 		<div class="col-sm-3">
 			<ul>
 				<li type='disc'>Elevadores</li>
@@ -97,22 +105,14 @@
 				<li type='disc'>Tiendas de conveniencia</li>
 			</ul>
 		</div>
-		<div class="col-sm-3">
-			<ul>
-				<li type='disc'>Elevadores</li>
-				<li type='disc'>Helipuerto</li>
-				<li type='disc'>Estacionamiento</li>
-				<li type='disc'>Gimnasio</li>
-			</ul>
-		</div>
 	</div>
+	<br><br><br><br><br><br><br><br>
 	<div class="row">
 		<hr class="linea" style="width: 3px; height: 30px;">
 		<h4 style="margin: 20px;">Especialidades</h4>
 	</div>
 	<br>
 	<div class="row">
-
 		<div class="col-sm-2">
 			<div id="res" class="mx-auto"></div>
 			<div id="ocultarselectmobile">
@@ -121,29 +121,31 @@
 				<br>
 			</div>
 		</div>
+
 		<div class="col-sm-10 TituloEspeclidad">
-			<h4 id="tituloespec">Anestesiologia</h4>
+			<h4 id="tituloespec">Anestesiología</h4>
 			<div id="rescontenido">
-				<h1>ANESTESIOLOGIA </h1>
-				<p>Las alergias se encuentran entre las enfermedades más comunes. Y, sin embargo, a menudo se pasan por alto. Si bien no
+				<h1>ANESTESIOLOGÍA </h1>
+				<p>Las alergias se encuentran entre las enfermedades más comunes. Y sin embargo, a menudo se pasan por alto. Si bien no
 					existe cura para las alergias, podemos ayudar a los pacientes a manejarlas con el tratamiento adecuado.</p>
-				<strong>Pruebas de alergia y diagnóstico</strong>
+				<strong>Pruebas de alergia y diagnóstico</strong><br><br>
 				<p>Durante su visita inicial, su médico revisará su historial de salud, el historial de salud de su familia y sus síntomas.
 					A continuación, se realizará un examen de sangre o pinchazo en la piel para diagnosticar sus síntomas de alergia. La
 					prueba cutánea es la forma más común y confiable de detectar alergias y es relativamente indolora.</p>
-				<strong>Inmunoterapia</strong>
-				<p>Cuando la evitación de alergenos y los medicamentos no controlan sus síntomas de alergia, su médico puede recomendar
+				<strong>Inmunoterapia</strong><br><br>
+				<p>Cuando la evitación de alérgenos y los medicamentos no controlan sus síntomas de alergia, su médico puede recomendar
 					la inmunoterapia. La inmunoterapia acumula anticuerpos bloqueadores por exposición repetida a los alérgenos. A través
 					de inyecciones o gotas orales, su médico puede reducir la respuesta de su cuerpo al alérgeno o eliminar los síntomas
 					por completo. Esto a su vez puede eliminar la necesidad de medicación y tratamiento futuro.</p>
-				<strong>Nuestras especialidades incluyen: </strong>
+				<strong>Nuestras especialidades incluyen: </strong><br><br>
 				<p>Tratamos todo tipo de alergias en adultos y niños con medidas de evitación, medicamentos e inmunoterapia.</p>
+				<br>
 				<ul>
-					<li type='disc'>Alergias a los alimentos</li>
-					<li type='disc'>Alergias estacionales</li>
-					<li type='disc'>Cuidado del asma</li>
-					<li type='disc'>Asma pediátrica</li>
-					<li type='disc'>Dermatitis atópica</li>
+					<li type='disc'>Alergias a los alimentos.</li>
+					<li type='disc'>Alergias estacionales.</li>
+					<li type='disc'>Cuidado del asma.</li>
+					<li type='disc'>Asma pediátrica.</li>
+					<li type='disc'>Dermatitis atópica.</li>
 				</ul>
 
 			</div>

@@ -15,7 +15,7 @@
 			<h1 class="Quines-somos">¿Quiénes somos?</h1>
 			<h4 class="Somos-un-Hospital-de-tercer-nivel">Somos un Hospital de tercer nivel</h4>
 			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">La infraestructura del Hospital San José Moscati, ha sido diseñada para brindar un servicio integral en materia de salud,
-				a través de todas las especialidades médicas y quirúrgicas y ofrecerá apoyo especializado para investigación, desarrollo
+				a través de todas las especialidades médicas y quirúrgicas y ofrecerá apoyo especializado para desarrollo
 				e investigación constante para mejorar la calidad de vida del paciente.</p>
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 		</div>
 	</div>
 </div>
-<br>
+<br><br><br><br><br><br>
 <div class="section-header">
 	<h2> <i class="fas fa-caret-right"></i> Filosofía</h2>
 </div>

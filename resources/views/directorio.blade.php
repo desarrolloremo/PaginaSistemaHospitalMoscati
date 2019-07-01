@@ -7,7 +7,7 @@
 <div class="container">
   <div class="blog" style="background-image: url('/img/SitioPrincipal/directorio/fondodirectorio.jpg')">
     <div class="blog_post">
-      <div class="blog_post_title"><a href="#">Directorio medico</a></div>
+      <div class="blog_post_title"><a href="#">Directorio médico</a></div>
       <div class="blog_post_text text-center">
 
         
@@ -33,7 +33,7 @@
         <th data-th="Datos generales"><span>Nombre completo</span></th>
         <th>Especialidad</th>
         <th>Subespecialidad</th>
-        <th>Telefono</th>
+        <th>Teléfono</th>
         <th>Consultorio</th>
       </tr>
       @if(count($posts)>0)

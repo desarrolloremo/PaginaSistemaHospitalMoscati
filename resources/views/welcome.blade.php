@@ -18,8 +18,8 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg"> </div>
-        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg"> </div>
-        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/fotodoctor.jpg"> </div>
+        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/doctor3.jpg"> </div>
+        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/doctor2.jpg"> </div>
     </div>
 
     <!-- Left and right controls -->
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="why_text">
-                            <p>En <strong> Hospital San José Moscati </strong>, brindamos calidad en nuestros servicios y para
+                            <p>En <strong> Hospital San José Moscati, </strong> brindamos calidad en nuestros servicios y para
                                 lograrlo, contamos con personal calificado en cada una de las áreas y servicios. La capacitación
                                 es una de nuestras fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales
                                 en nuestra área.
@@ -84,7 +84,7 @@
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">Los mejores doctores</div>
-                                <div class="why_list_text">Nuestros equipo de profesionales investigan y participan de talleres de formación reconocidos a nivel mundial</div>
+                                <div class="why_list_text">Nuestros equipo de profesionales investigan y participan de talleres de formación reconocidos a nivel mundial.</div>
                         </div>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                     <div class="service_icon">
                         <img src="img/SitioPrincipal/iconosheader/iconservicios/CEREBRO.png">
                     </div>
-                    <h3>Neurofisiologia</h3>
-                    <p>El Departamento de Neurología ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
+                    <h3>Neurofisiología</h3>
+                    <p>El departamento de neurología ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
                         utilizados para el monitoreo de la epilepsia y la rehabilitación neurológica intensiva.</p>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                     <div class="service_icon">
                         <img src="img/SitioPrincipal/iconosheader/iconservicios/RINON.png">
                     </div>
-                    <h3>Hemodialisis</h3>
+                    <h3>Hemodiálisis</h3>
                     <p>Contamos con centros de hemodiálisis en el que se encuentran máquinas de diálisis y se ofrece al paciente
                         la valoración de un nefrólogo y nutriólogo además de brindar apoyo.</p>
                 </div>
@@ -161,7 +161,7 @@
                         <img src="img/SitioPrincipal/iconosheader/iconservicios/PARTO.png">
                     </div>
                     <h3>Ginecología</h3>
-                    <p>Ofrecemos una serie de recomendaciones para las pacientes de este servicio, en todas las etapas de su
+                    <p>Ofrecemos una serie de recomendaciones para las pacientes de este servicio en todas las etapas de su
                         vida, desde la adolescencia hasta la maternidad .</p>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                         <img src="img/SitioPrincipal/iconosheader/iconservicios/HUESOS.png">
                     </div>
                     <h3>Traumatología</h3>
-                    <p>Nos complace ofrecer tratamientos que no están disponibles en ningún otro lugar, y practicamos un compromiso
+                    <p>Nos complace ofrecer tratamientos que no están disponibles en ningún otro lugar y practicamos un compromiso
                         continuo con la mejor experiencia posible con el paciente.</p>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                         <img src="img/SitioPrincipal/iconosheader/iconservicios/PIEICONO.png">
                     </div>
                     <h3>Ortopedia</h3>
-                    <p>El Departamento es reconocido internacionalmente por su excelencia en la atención ortopédica y el tratamiento
+                    <p>El departamento es reconocido internacionalmente por su excelencia en la atención ortopédica y el tratamiento
                         mínimamente invasivo de las lesiones deportivas.</p>
                 </div>
             </div>
