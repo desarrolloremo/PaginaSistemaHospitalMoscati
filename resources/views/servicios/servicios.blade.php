@@ -14,7 +14,7 @@
 	</div>
 </div>
 
-<div class="content-all">
+{{--<div class="content-all">
 	<div class="content-carrousel">
 			<figure><img  class='zoom' src="https://loremflickr.com/320/200" /></figure>
 			<figure><img  class='zoom' src="https://loremflickr.com/320/201" /></figure>
@@ -29,7 +29,7 @@
 	</div>
 </div>
 
-	{{-- <div class="slider">
+	 <div class="slider">
 	  <div class="slide">
 <div class="zoom">
 			<img class="zoom" src="https://loremflickr.com/320/200" />
