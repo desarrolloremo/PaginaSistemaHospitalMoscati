@@ -117,7 +117,7 @@
               <ul class="children">
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('admin.dashboard')}}">Acceso medico</a>
                   <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('menulateral.preadmision')}}">Pre-admisión hospitalaria</a>
-                    <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('buscarpaciente')}}">Laboratorio</a>
+                   <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('buscarpaciente')}}">Laboratorio</a> 
                       <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('menulateral.rentaventaconsultorios')}}">Renta consultorio</a>
                         <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"> <a href="{{route('buscarpaciente')}}">Buscar paciente</a>
 
@@ -140,7 +140,7 @@
   @yield('contenido')
   <div class="social-bar">
     <div class="social-bar__item social-bar__fb">
-        <a href="{{route('admin.dashboard')}}" title="Hacer cita"><img src="/img/SitioPrincipal/icons/acceso-medico@3x.png" alt=""></a>
+        <a href="{{route('admin.dashboard')}}" title=""><img src="/img/SitioPrincipal/icons/acceso-medico@3x.png" alt=""></a>
     </div>
 
     <div class="social-bar__item social-bar__fb">
@@ -152,7 +152,7 @@
     </div>
 
     <div class="social-bar__item social-bar__fb">
-      <a href="{{route('buscarpaciente')}}" title="Laboratorio"><img src="/img/SitioPrincipal/icons/imageneologia-y-laboratorio@3x.png" alt=""></a>
+      <!--<a href="{{route('buscarpaciente')}}" title="Laboratorio"><img src="/img/SitioPrincipal/icons/imageneologia-y-laboratorio@3x.png" alt=""></a> -->
     </div>
 
     <div class="social-bar__item social-bar__fb">
