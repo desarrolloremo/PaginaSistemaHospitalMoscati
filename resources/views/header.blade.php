@@ -160,7 +160,7 @@
     </div>
 
     <div class="social-bar__item social-bar__fb">
-      <a href="{{route('buscarpaciente')}}" title="Buscar paciente"><img src="/img/SitioPrincipal/icons/buscador-paciente@3x.png" alt=""></a>
+      <!--<a href="{{route('buscarpaciente')}}" title="Buscar paciente"><img src="/img/SitioPrincipal/icons/buscador-paciente@3x.png" alt=""></a>-->
     </div>
   </div>
 

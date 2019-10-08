@@ -4,10 +4,10 @@
 <br>
 <br>
 <br>
+<br>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <!-- Indicators -->
-
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -51,7 +51,7 @@
                         <div class="section_title_container">
                             <div class="section_subtitle"></div>
                             <div class="section_title">
-                                <h2 style="color:white">Bienvenidos a nuestra clínica</h2>
+                                <h2 style="color:white">Bienvenidos</h2>
                             </div>
                         </div>
                         <div class="why_text">
