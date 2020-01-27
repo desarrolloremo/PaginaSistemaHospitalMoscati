@@ -31,6 +31,7 @@
       <footer class="container-flex space-between">
         <div class="read-more">
           <a href="blog/{{ $post->url}}" class="text-uppercase c-green">Leer mas ..</a>
+          <h1>holaaaaaaaaaaaaaaaaaaaaa</h1>
         </div>
 
       </footer>
