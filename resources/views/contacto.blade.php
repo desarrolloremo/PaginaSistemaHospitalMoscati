@@ -1,7 +1,7 @@
 @extends('header') 
 @section('contenido')
     <br><br><br>
-<div class="contact">
+<div class="contact mt-4">
     <div class="container">
         <div class="row">
 

@@ -5,7 +5,7 @@
 <br>
 <br>
 <br> @foreach ($posts as $post)
-<div class="col-md-8 mx-auto">
+<div class="col-md-8 mx-auto" style="margin-top:3rem!important">
 
   <article class="post w-image">
     @if ($post->photos->count())
