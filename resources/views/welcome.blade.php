@@ -16,14 +16,7 @@
     <!-- Wrapper for slides -->
 
     <div class="carousel-inner">
-        <div class="carousel-item active"> <img src="img/SitioPrincipal/inicio/1.jpg"> </div>
-        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/2.jpg"> </div>
-        <div class="carousel-item"> <img src="img/SitioPrincipal/inicio/3.jpg"> </div>
-<div class="carousel-item"> <img src="img/SitioPrincipal/inicio/4.jpg"> </div>
-<div class="carousel-item"> <img src="img/SitioPrincipal/inicio/5.jpg"> </div>
-<div class="carousel-item"> <img src="img/SitioPrincipal/inicio/6.jpg"> </div>
-<div class="carousel-item"> <img src="img/SitioPrincipal/inicio/7.jpg"> </div>
-<div class="carousel-item"> <img src="img/SitioPrincipal/inicio/8.jpg"> </div>
+        <div class="carousel-item active" style="background-image:url('img/SitioPrincipal/inicio/1.jpg');height:23vh;background-position:50% 50%"></div>
     </div>
 
     <!-- Left and right controls -->
