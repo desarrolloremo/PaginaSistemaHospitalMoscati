@@ -5,7 +5,7 @@ $url = parse_url(getenv("us-cdbr-iron-east-04.cleardb.net"));
 $host = $url["us-cdbr-iron-east-04.cleardb.net"];
 $username = $url['b984b61fad79f6'];
 $password = $url["c6b3623c"];
-$database = substr($url["heroku_cff2cae2fb54d11 "], 1);
+$database = substr($url["heroku_cff2cae2fb54d11"], 1);
 return [
 
     /*
