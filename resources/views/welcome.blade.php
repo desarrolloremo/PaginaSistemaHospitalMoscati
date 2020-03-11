@@ -47,7 +47,7 @@
             <div class="row justify-content-center align-items-center">
                 <!-- Why Choose Us Image -->
                 <div class="col-lg-5 ">
-                    <img class="img-fluid" src="img/SitioPrincipal/iconosheader/DOCTORESFOTO.png" height="50px;">
+                    <img class="img-fluid" src="img/SitioPrincipal/inicio/bienvenidos.jpg" height="50px;">
                 </div>
                 <!-- Why Choose Us Content -->
                 <div class="col-lg-7 order-lg-2">
