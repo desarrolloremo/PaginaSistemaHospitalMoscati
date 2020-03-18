@@ -17,8 +17,8 @@
 
     <div class="carousel-inner">
         
-<div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/2.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
-<div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/3.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
+
+<div class="carousel-item active" style="background-image:url('img/SitioPrincipal/inicio/3.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
 <div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/4.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
 <div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/5.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
 <div class="carousel-item " style="background-image:url('img/SitioPrincipal/inicio/6.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
