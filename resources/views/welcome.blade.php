@@ -16,8 +16,9 @@
  <!-- Wrapper for slides -->
 
  <div class="carousel-inner">
- 
-<div class="carousel-item active" style="background-image:url('img/SitioPrincipal/inicio/3.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
+ <div class="carousel-item active" style="background-image:url('img/SitioPrincipal/inicio/1.jpg');height:600px;background-position:50% 50%"></div>
+<div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/2.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
+<div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/3.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
 <div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/4.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
 <div class="carousel-item" style="background-image:url('img/SitioPrincipal/inicio/5.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
 <div class="carousel-item " style="background-image:url('img/SitioPrincipal/inicio/6.jpg');height:600px;background-position:50% 50%;background-size:cover"></div>
@@ -38,7 +39,7 @@
 </div>
 
 <div class="section-header">
- <h2><i class="fas fa-caret-right"></i> Excelencia y pasi車n por la vida <i class="fas fa-caret-left"></i></h2>
+ <h2><i class="fas fa-caret-right"></i> Excelencia y pasi?n por la vida <i class="fas fa-caret-left"></i></h2>
 </div>
 <div class="why">
  <div style="background: rgb(0, 37, 84, .9)">
@@ -58,10 +59,10 @@
  </div>
  </div>
  <div class="why_text">
- <p>En <strong> Hospital San Jos谷 Moscati, </strong> brindamos calidad en nuestros servicios y para
- lograrlo, contamos con personal calificado en cada una de las 芍reas y servicios. La capacitaci車n
+ <p>En <strong> Hospital San Jos? Moscati, </strong> brindamos calidad en nuestros servicios y para
+ lograrlo, contamos con personal calificado en cada una de las ?reas y servicios. La capacitaci?n
  es una de nuestras fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales
- en nuestra 芍rea.
+ en nuestra ?rea.
  </p>
  </div>
  </div>
@@ -75,8 +76,8 @@
  <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/DOCTORICONO.png">
  </div>
  <div class="col-sm-9">
- <div class="why_list_title">Contamos con m芍s de 30 especialidades</div>
- <div class="why_list_text">Un equipamiento completo de diagn車stico y tratamiento, y un plantel profesional reconocido.</div>
+ <div class="why_list_title">Contamos con m?s de 30 especialidades</div>
+ <div class="why_list_text">Un equipamiento completo de diagn?stico y tratamiento, y un plantel profesional reconocido.</div>
  </div>
  </div>
  </div>
@@ -87,7 +88,7 @@
  </div>
  <div class="col-sm-9">
  <div class="why_list_title">Los mejores doctores</div>
- <div class="why_list_text">Nuestros equipo de profesionales investigan y participan de talleres de formaci車n reconocidos a nivel mundial.</div>
+ <div class="why_list_text">Nuestros equipo de profesionales investigan y participan de talleres de formaci?n reconocidos a nivel mundial.</div>
  </div>
  </div>
  </div>
@@ -98,7 +99,7 @@
  </div>
  <div class="col-sm-9">
  <div class="why_list_title">Equipo de enfermeras</div>
- <div class="why_list_text">Altamente calificadas que mantienen una relaci車n 車ptima que permite una atenci車n personalizada.</div>
+ <div class="why_list_text">Altamente calificadas que mantienen una relaci?n ?ptima que permite una atenci?n personalizada.</div>
  </div>
  </div>
  </div>
@@ -133,9 +134,9 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/CEREBRO.png">
  </div>
- <h3>Neurofisiolog赤a</h3>
- <p>El departamento de neurolog赤a ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
- utilizados para el monitoreo de la epilepsia y la rehabilitaci車n neurol車gica intensiva.</p>
+ <h3>Neurofisiolog?a</h3>
+ <p>El departamento de neurolog?a ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
+ utilizados para el monitoreo de la epilepsia y la rehabilitaci?n neurol?gica intensiva.</p>
  </div>
  </div>
  <div class="col-md-4 col-sm-6">
@@ -143,9 +144,9 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/CORAZONICONO.png">
  </div>
- <h3>Cardiolog赤a</h3>
+ <h3>Cardiolog?a</h3>
  <p>Nuestro objetivo para los pacientes es proporcionar un servicio inigualable de primer nivel en casos
- card赤acos complejos, que ofrezca los mejores resultados y la experiencia m芍s exitosa para el paciente.</p>
+ card?acos complejos, que ofrezca los mejores resultados y la experiencia m?s exitosa para el paciente.</p>
  </div>
  </div>
  <div class="col-md-4 col-sm-6">
@@ -153,9 +154,9 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/RINON.png">
  </div>
- <h3>Hemodi芍lisis</h3>
- <p>Contamos con centros de hemodi芍lisis en el que se encuentran m芍quinas de di芍lisis y se ofrece al paciente
- la valoraci車n de un nefr車logo y nutri車logo adem芍s de brindar apoyo.</p>
+ <h3>Hemodi?lisis</h3>
+ <p>Contamos con centros de hemodi?lisis en el que se encuentran m?quinas de di?lisis y se ofrece al paciente
+ la valoraci?n de un nefr?logo y nutri?logo adem?s de brindar apoyo.</p>
  </div>
  </div>
  <div class="col-md-4 col-sm-6">
@@ -163,7 +164,7 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/PARTO.png">
  </div>
- <h3>Ginecolog赤a</h3>
+ <h3>Ginecolog?a</h3>
  <p>Ofrecemos una serie de recomendaciones para las pacientes de este servicio en todas las etapas de su
  vida, desde la adolescencia hasta la maternidad .</p>
  </div>
@@ -173,8 +174,8 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/HUESOS.png">
  </div>
- <h3>Traumatolog赤a</h3>
- <p>Nos complace ofrecer tratamientos que no est芍n disponibles en ning迆n otro lugar y practicamos un compromiso
+ <h3>Traumatolog?a</h3>
+ <p>Nos complace ofrecer tratamientos que no est?n disponibles en ning?n otro lugar y practicamos un compromiso
  continuo con la mejor experiencia posible con el paciente.</p>
  </div>
  </div>
@@ -184,8 +185,8 @@
  <img src="img/SitioPrincipal/iconosheader/iconservicios/PIEICONO.png">
  </div>
  <h3>Ortopedia</h3>
- <p>El departamento es reconocido internacionalmente por su excelencia en la atenci車n ortop谷dica y el tratamiento
- m赤nimamente invasivo de las lesiones deportivas.</p>
+ <p>El departamento es reconocido internacionalmente por su excelencia en la atenci?n ortop?dica y el tratamiento
+ m?nimamente invasivo de las lesiones deportivas.</p>
  </div>
  </div>
  <div class="col-sm-2"></div>
@@ -194,8 +195,8 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/PULMONES.png">
  </div>
- <h3>Neumolog赤a</h3>
- <p>EL departamento tiene como objetivo ofrecer un servicio integral para la prevenci車n, el diagn車stico y
+ <h3>Neumolog?a</h3>
+ <p>EL departamento tiene como objetivo ofrecer un servicio integral para la prevenci?n, el diagn?stico y
  tratamiento de las enfermedades respiratorias. </p>
  </div>
  </div>
@@ -204,8 +205,8 @@
  <div class="service_icon">
  <img src="img/SitioPrincipal/iconosheader/iconservicios/OIDOICONO.png">
  </div>
- <h3>Otorrinolaringolog赤a</h3>
- <p>Realizamos los procedimientos con las t谷cnicas m芍s modernas que nos ayudan al diagn車stico de cualquier
+ <h3>Otorrinolaringolog?a</h3>
+ <p>Realizamos los procedimientos con las t?cnicas m?s modernas que nos ayudan al diagn?stico de cualquier
  padecimiento mejorando la calidad de vida del paciente.</p>
  </div>
  </div>
