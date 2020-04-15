@@ -36,7 +36,7 @@
       <div class="row">
         <div class="col-lg-4" style="padding-right: 0px; padding-left: 0px;">
           <div class="section-rojo">
-            <i class="fas fa-phone" style="margin-left: 20%;"></i> URGENCIAS: +52 442 614 7901
+            <i class="fas fa-phone" style="margin-left: 20%;"></i> URGENCIAS: +52 442 388 5420
           </div>
         </div>
         <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
