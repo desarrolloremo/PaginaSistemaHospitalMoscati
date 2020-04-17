@@ -14,9 +14,11 @@
 		<div class="col-sm-8">
 			<h1 class="Quines-somos">¿Quiénes somos?</h1>
 			<h4 class="Somos-un-Hospital-de-tercer-nivel">Somos un Hospital de tercer nivel</h4>
-			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">La infraestructura del Hospital San José Moscati, ha sido diseñada para brindar un servicio integral en materia de salud,
-				a través de todas las especialidades médicas y quirúrgicas y ofrecerá apoyo especializado para desarrollo
-				e investigación constante para mejorar la calidad de vida del paciente.</p>
+			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">Edificado en 36 niveles, Moscati se erige como la torre médica más alta del estado, dotada de la más alta tecnología, con 15 cubículos para urgencias, laboratorio clínico, equipos para resonancia de 1.5 teslas, un tomógrafo de 128 cortes, ultrasonido 4D,sala de rayos X, mastógrafo digital y un densitómetro digital.</p>
+			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise"> Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. Nuestro cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.  
+			</p>
+			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise"> La terapia intensiva humanizada pediátrica, neonata y para adultos cuenta con las mejores instalaciones para la pronta recuperación e integración del paciente. San José Moscati cuenta con 108 habitaciones, tanto de tipo estándar, como suite y máster suite, distribuidas en cinco pisos y diseñadas de manera cálida y confortable para la recuperación del paciente. En Moscati encontrarás todo los servicios en un solo lugar. La farmacia de alta especialidad, óptica y la cafetería Benevento.  
+			</p>
 		</div>
 	</div>
 </div>
