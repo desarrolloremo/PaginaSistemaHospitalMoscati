@@ -6,9 +6,9 @@
 <br>
 <div class="container bg-white content-inner" style="margin-top:3rem!important">
 	<div class="row">
-		<div class="col-sm-4">
+		<div class="col-sm-4 mt-4 pt-4 ">
 			<img src="img/SitioPrincipal/nosotros/consultorio.png" srcset="img/SitioPrincipal/nosotros/consultorio@2x.png 2x,
-						img/SitioPrincipal/nosotros/consultorio@3x.png 3x" class="Consultorio">
+						img/SitioPrincipal/nosotros/consultorio@3x.png 3x" class="Consultorio mt-4 pt-4">
 		</div>
 
 		<div class="col-sm-8">
