@@ -62,8 +62,7 @@
 		<div class="col-sm-1"></div>
 		<div class="col-sm-3 GRIS-RECT">
 			<h2 class="title-filosofia" style="color: #002554;">Visión</h2>
-			<p class="content-filosofia" style="color: #002554;">Ser un referente profesional a nivel nacional e internacional en salud, fortalciendo la colaboración y la sinergia entre
-				la práctica clínica, la tecnología, la atención y el diagnóstico para garantizar la seguridad de nuestros pacientes.</p>
+			<p class="content-filosofia" style="color: #002554;">Ofrecer la mejor atención médica integral, mediante profesionales calificados y la mejor tecnología garantizando un ambiente seguro para el desarrollo de los procesos de atención, el cuidado de la salud y el bienestar del paciente, buscando ser uno de los mejores hospitales de Latinoamérica.</p>
 		</div>
 		<div class="col-sm-1"></div>
 	</div>
