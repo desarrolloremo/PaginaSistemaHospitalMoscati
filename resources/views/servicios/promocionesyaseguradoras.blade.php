@@ -17,7 +17,7 @@
         <h2> <i class="fas fa-caret-right"></i> Convenios con aseguradoras</h2>
     </div>
 
-    <p>Hospital San José Moscati presta servicios sanitarios a través de diferentes acuerdos, a pacientes asegurados en distintas
+    <p class="text-justify">Hospital San José Moscati presta servicios sanitarios a través de diferentes acuerdos, a pacientes asegurados en distintas
         compañías de salud, bien sean seguros de cuadro médico o de reembolso de gastos. Además de estos, contamos con numerosos
         acuerdos particulares con empresas y organizaciones de distinta naturaleza, empresas autoaseguradoras de accidente
         de trabajo, múltiples compañías de asistencia en viaje, de accidentes deportivos, etc consulte con su compañía qué
