@@ -41,8 +41,8 @@
         </div>
         <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
           <div class="emergencias">
-            <a href="https://www.instagram.com/moscatiqro/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/Moscatiqro/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
           </div>
         </div>
 
