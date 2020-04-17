@@ -29,7 +29,7 @@
 
         <div class="col-sm-4 caja-aseguradoras">
             <div class="margen-lateral ">
-                <img src="../img/SitioPrincipal/promociones/maternidad-abril-17-2020.png">
+                <img src="../img/SitioPrincipal/promociones/maternidad-abril-17-2020.jpg">
                 <div class="more-info">
                     <a href="./img/SitioPrincipal/promociones/more.png" target="_Blank">
                     <span class="txt">Visite su web</span>
