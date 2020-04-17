@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="why_text">
-                            <p>En <strong> Hospital San José Moscati, </strong> brindamos calidad en nuestros servicios y para
+                            <p>En <strong> aaaa Hospital San José Moscati, </strong> brindamos calidad en nuestros servicios y para
                                 lograrlo, contamos con personal calificado en cada una de las áreas y servicios. La capacitación
                                 es una de nuestras fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales
                                 en nuestra área. 
