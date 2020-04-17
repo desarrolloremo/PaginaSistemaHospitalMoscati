@@ -32,7 +32,7 @@
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;">
-            <div class="margen-lateral ">
+            <div class="margen-lateral " style="top: 110%;">
                 <div class="more-info">
                     <a href="./img/SitioPrincipal/promociones/more.png" target="_Blank">
                     <span class="txt">Visite su web</span>
