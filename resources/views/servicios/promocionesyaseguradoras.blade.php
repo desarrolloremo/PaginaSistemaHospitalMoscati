@@ -27,9 +27,8 @@
 
     <div class="row">
 
-        <div class="col-sm-4 caja-aseguradoras">
+        <div class="col-sm-4 caja-aseguradoras" style="background-image: url('../img/SitioPrincipal/promociones/maternidad-abril-17-2020.jpg');width: 100%;height: 300px;">
             <div class="margen-lateral ">
-                <img src="../img/SitioPrincipal/promociones/maternidad-abril-17-2020.jpg">
                 <div class="more-info">
                     <a href="./img/SitioPrincipal/promociones/more.png" target="_Blank">
                     <span class="txt">Visite su web</span>
