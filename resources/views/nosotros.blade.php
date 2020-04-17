@@ -30,7 +30,7 @@
 		</div>
 		<div class="col-sm-3">
 			<h5 class="titulonosotros">Infraestructura</h5>
-			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+			<p class="parrafonosotros">Edificado en 36 niveles, Moscati se erige como la torre médica más alta del estado, dotada de la más alta tecnología.</p>
 		</div>
 		<div class="col-sm-1">
 			<hr class="linea">
@@ -57,9 +57,7 @@
 		<div class="col-sm-3"></div>
 		<div class="col-sm-3 AZUL-RECT">
 			<h2 class="title-filosofia">Misión</h2>
-			<p class="content-filosofia">Ofrecer la mejor atención médica integral, mediante profesionales calificados y tecnología, garantizando un ambiente seguro
-				para el desarrollo de los procesos de atención, el cuidado de la salud y el bienestar que el paciente necesita, buscando
-				ser uno de los mejores Hospitales de Latinoamérica.</p>
+			<p class="content-filosofia">Satisfacer las necesidades de cuidado de la salud de los pacientes, brindando a toda la comunidad la mejor atención médica basada en la evidencia científica, otorgando al paciente un diagnostico acertado, tratamiento y solución eficaz, garantizada mediante la revisión y actualización de los conocimientos, procesos y tecnologías.</p>
 		</div>
 		<div class="col-sm-1"></div>
 		<div class="col-sm-3 GRIS-RECT">
