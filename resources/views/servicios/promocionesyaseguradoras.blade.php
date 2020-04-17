@@ -29,9 +29,9 @@
 
         <div class="col-sm-4 caja-aseguradoras">
             <div class="margen-lateral ">
-                <img src="https://picsum.photos/200/?random">
+                <img src="./img/SitioPrincipal/promociones/maternidad-abril-17-2020.png">
                 <div class="more-info">
-                    <a href="./img/SitioPrincipal/promociones/maternidad-abril-17-2020.png" target="_Blank">
+                    <a href="./img/SitioPrincipal/promociones/more.png" target="_Blank">
                     <span class="txt">Visite su web</span>
                     <img src="../img/SitioPrincipal/servicios/more.png" alt=""></a>
                 </div>
