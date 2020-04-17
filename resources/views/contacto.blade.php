@@ -32,7 +32,7 @@
                     </div>
                     <div class="direct_line d-flex flex-row align-items-center justify-content-start">
                         <div class="direct_line_title text-center">Teléfono</div>
-                        <div class="direct_line_num text-center">+52 442 7953 324</div>
+                        <div class="direct_line_num text-center">+52 442 3885 420 </div>
                     </div>
                     <div class="contact_info">
                         <ul>
