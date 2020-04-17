@@ -31,7 +31,7 @@
             <div class="margen-lateral ">
                 <img src="https://picsum.photos/200/?random">
                 <div class="more-info">
-                    <a href="http://www.mapfre.es/seguros/particulares/" target="_Blank">
+                    <a href="./img/SitioPrincipal/promociones/maternidad-abril-17-2020.png" target="_Blank">
                     <span class="txt">Visite su web</span>
                     <img src="../img/SitioPrincipal/servicios/more.png" alt=""></a>
                 </div>
