@@ -59,10 +59,7 @@
                             </div>
                         </div>
                         <div class="why_text">
-                            <p>En <strong> Hospital San José Moscati, </strong> brindamos calidad en nuestros servicios y para
-                                lograrlo, contamos con personal calificado en cada una de las áreas y servicios. La capacitación
-                                es una de nuestras fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales
-                                en nuestra área. 
+                            <p>Con el respaldo de una trayectoria de más de 20 años brindando la mejor atención medica en el estado, surge San José Moscati, un hospital dotado con la tecnología más avanzada de América Latina  y personal altamente capacitado para ofrecerte los mejores servicios para el cuidado de tu salud.
                             </p>
                         </div>
                     </div>
