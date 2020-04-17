@@ -28,11 +28,11 @@
     <div class="row">
 
         <div class="col-sm-4 caja-aseguradoras" style="background-image: url('../img/SitioPrincipal/promociones/maternidad-abril-17-2020.jpg');width: 100%;
-    height: 500px;
+    height: 400px;
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;">
-            <div class="margen-lateral " style="top: 90%;">
+            <div class="margen-lateral " style="top: 110%;">
                 <div class="more-info">
                     <a href="./img/SitioPrincipal/promociones/more.png" target="_Blank">
                     <span class="txt">Visite su web</span>
