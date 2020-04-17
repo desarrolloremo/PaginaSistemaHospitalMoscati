@@ -13,7 +13,6 @@
 
 		<div class="col-sm-8">
 			<h1 class="Quines-somos">¿Quiénes somos?</h1>
-			<h4 class="Somos-un-Hospital-de-tercer-nivel">Somos un Hospital de tercer nivel</h4>
 			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">Edificado en 36 niveles, Moscati se erige como la torre médica más alta del estado, dotada de la más alta tecnología, con 15 cubículos para urgencias, laboratorio clínico, equipos para resonancia de 1.5 teslas, un tomógrafo de 128 cortes, ultrasonido 4D,sala de rayos X, mastógrafo digital y un densitómetro digital.</p>
 			<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise"> Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. Nuestro cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.  
 			</p>
