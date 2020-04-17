@@ -95,8 +95,8 @@
                             <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
                         </div>
                         <div class="col-sm-9">
-                                <div class="why_list_title">Equipo de enfermeras</div>
-                                <div class="why_list_text">Altamente calificadas que mantienen una relación óptima que permite una atención personalizada.</div>
+                                <div class="why_list_title">La tecnología de punta con la que contará el Hospital</div>
+                                <div class="why_list_text">Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. El cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.</div>
                         </div>
                     </div>
                 </div>
