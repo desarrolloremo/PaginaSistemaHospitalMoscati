@@ -37,58 +37,6 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 caja-aseguradoras">
-            <div class="margen-lateral ">
-                <img src="https://picsum.photos/100/?random">
-                <div class="more-info">
-                    <a href="http://www.mapfre.es/seguros/particulares/" target="_Blank">
-                    <span class="txt">Visite su web</span>
-                    <img src="../img/SitioPrincipal/servicios/more.png" alt=""> </a>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-sm-4 caja-aseguradoras">
-            <div class="margen-lateral ">
-                <img src="https://picsum.photos/101/?random">
-                <div class="more-info">
-                    <a href="http://www.mapfre.es/seguros/particulares/" target="_Blank">
-                    <span class="txt">Visite su web</span>
-                    <img src="../img/SitioPrincipal/servicios/more.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 caja-aseguradoras">
-                <div class="margen-lateral ">
-                    <img src="https://picsum.photos/205/?random">
-                    <div class="more-info">
-                        <a href="http://www.mapfre.es/seguros/particulares/" target="_Blank">
-                        <span class="txt">Visite su web</span>
-                        <img src="../img/SitioPrincipal/servicios/more.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 caja-aseguradoras">
-                <div class="margen-lateral ">
-                    <img src="https://picsum.photos/150/?random">
-                    <div class="more-info">
-                        <a href="http://www.mapfre.es/seguros/particulares/" target="_Blank">
-                        <span class="txt">Visite su web</span>
-                        <img src="../img/SitioPrincipal/servicios/more.png" alt=""> </a>
-                    </div>
-                </div>
-    
-            </div>
-            <div class="col-sm-4 caja-aseguradoras">
-                <div class="margen-lateral ">
-                    <img src="https://picsum.photos/101/?random">
-                    <div class="more-info">
-                        <a href="http://www.mapfre.es/seguros/particulares/" target="_Blank">
-                        <span class="txt">Visite su web</span>
-                        <img src="../img/SitioPrincipal/servicios/more.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
         
     </div>
     
