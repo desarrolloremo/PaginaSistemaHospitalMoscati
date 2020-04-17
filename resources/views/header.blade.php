@@ -43,7 +43,6 @@
           <div class="emergencias">
             <a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/HospitalMoscati"><i class="fab fa-twitter" aria-hidden="true"></i></a>
           </div>
         </div>
 
