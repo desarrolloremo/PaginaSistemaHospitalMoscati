@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="why_text">
-                            <p>En <strong> aaaa Hospital San José Moscati, </strong> brindamos calidad en nuestros servicios y para
+                            <p>En <strong> Hospital San José Moscati, </strong> brindamos calidad en nuestros servicios y para
                                 lograrlo, contamos con personal calificado en cada una de las áreas y servicios. La capacitación
                                 es una de nuestras fortalezas y cada uno de los que colaboramos en esta empresa somos profesionales
                                 en nuestra área. 
@@ -88,7 +88,7 @@
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">Los mejores doctores</div>
-                                <div class="why_list_text">Nuestros equipo de profesionales investigan y participan de talleres de formación reconocidos a nivel mundial.</div>
+                                <div class="why_list_text">En Moscati, la constante capacitación y evaluación de nuestros médicos es primordial, lo cual nos permite garantizar la mejor atención a los pacientes cumpliendo los estándares más altos del hospital. Un equipo formado por  personas más talentosas  dedicadas a su profesión y comprometidas con la salud.</div>
                         </div>
                     </div>
                 </div>
