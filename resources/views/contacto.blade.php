@@ -51,7 +51,7 @@
                         </ul>
                     </div>
                     <div class="contact_social">
-                        <p>Siguenos en nuestras redes sociales</p>
+                        <p class="text-center">Siguenos en nuestras redes sociales</p>
                         <ul class="d-flex list-inline justify-content-center">
                             <li><a href="https://www.facebook.com/moscatiqro/" target="_blank"><i class="fab fa-facebook-f"  aria-hidden="true"></i></a></li>
                             <li><a href="https://www.instagram.com/Moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
