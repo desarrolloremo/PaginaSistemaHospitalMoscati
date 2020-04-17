@@ -40,10 +40,10 @@
                                 <div>Dirección</div>
                                 <div>Boulevard, Av. de las Ciencias 2058, Juriquilla, Qro.</div>
                             </li>
-                            <li class="d-flex flex-row align-items-start justify-content-start">
+                            <!--<li class="d-flex flex-row align-items-start justify-content-start">
                                 <div>Teléfono</div>
                                 <div>+52 442-325-93-54</div>
-                            </li>
+                            </li>-->
                             <li class="d-flex flex-row align-items-start justify-content-start">
                                 <div>E-mail</div>
                                 <div>yourmail@gmail.com</div>
