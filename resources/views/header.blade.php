@@ -196,8 +196,7 @@
             <div class="footer_contact">
               <div class="footer_title">Información de Contacto</div>
               <ul class="contact_list" style="color:#fff">
-                <li>+52 442 325 9354</li>
-                <li>+52 442-325 9360</li>
+                <li>+52 442 388 5420</li>
                 <li>@correo.com</li>
 
               </ul>
