@@ -41,8 +41,8 @@
         </div>
         <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
           <div class="emergencias">
-            <a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <li><a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
           </div>
         </div>
 
@@ -128,9 +128,8 @@
       </div>
       <div class="social menu_social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="https://twitter.com/HospitalMoscati"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
@@ -183,9 +182,8 @@
                 <!-- Header Social -->
                 <div class="social header_social">
                   <ul class="d-flex flex-row align-items-center justify-content-start">
-                    <li><a href="https://www.instagram.com/hospitalsanjosemoscati/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.facebook.com/hospitalsanjosemoscati/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/HospitalMoscati"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                   </ul>
                 </div>
               </div>
