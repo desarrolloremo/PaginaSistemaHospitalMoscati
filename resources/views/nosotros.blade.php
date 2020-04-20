@@ -105,6 +105,12 @@
 		<div class="col-sm-3 mt-4">
 			<h5 class="titulonosotros">Respeto</h5>
 		</div>
+		<div class="col-sm-1 mt-4">
+			<hr class="linea">
+		</div>
+		<div class="col-sm-3 mt-4">
+			<h5 class="titulonosotros">Responsabilidad</h5>
+		</div>
 
 	</div>
 </div> <br><br><br><br><br><br><br><br>
