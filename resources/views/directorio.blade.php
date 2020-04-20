@@ -7,8 +7,8 @@
 <div class="container" style="margin-top:3rem!important">
   <div class="blog" style="background-image: url('/img/SitioPrincipal/directorio/fondodirectorio.jpg')">
     <div class="blog_post">
-      <div class="blog_post_title"><a href="#">Directorio médico</a></div>
-      <div class="blog_post_text text-center">
+      <div class="blog_post_title"><a href="#">Próximamente</a></div>
+      <!--<div class="blog_post_text text-center">
 
         
         <form method="POST" action="{{ action('Admin\DirectorioDoctorControler@home')}}">
@@ -24,7 +24,7 @@
             </div>
           </div>
         </form>
-      </div>
+      </div>-->
     </div>
   </div>
   <!--<div class="table">
