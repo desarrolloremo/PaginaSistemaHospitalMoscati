@@ -7,8 +7,8 @@
 <br>
 <div class="container" style="margin-top:3rem!important">
     <div class="container-fluid">
-        <div class="row">
-            <h4 style="margin: 20px;">Próximamente</h4>
+        <div class="row m-4 p-4">
+            <h4 style="margin: 20px;font-size: 38px;">Próximamente</h4>
         </div>
     </div>
     <!--<div class="editContent">
