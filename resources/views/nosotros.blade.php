@@ -95,7 +95,7 @@
 			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 		</div>
 	</div>
-</div>
+</div> <br><br><br>
 <div class="section-header">
 	<h2> <i class="fas fa-caret-right"></i> Directivos</h2>
 </div>
