@@ -6,7 +6,12 @@
 <br>
 <br>
 <div class="container" style="margin-top:3rem!important">
-    <div class="editContent">
+    <div class="container-fluid">
+        <div class="row">
+            <h4 style="margin: 20px;">Próximamente</h4>
+        </div>
+    </div>
+    <!--<div class="editContent">
         <h5>Proximos eventos</h5>
 
     </div>
@@ -31,7 +36,7 @@
             @endif @endforeach
         </div>
     </div>
-    <hr>
+    <hr>-->
 
     <div class="editContent">
         <h5>Eventos pasados</h5>
