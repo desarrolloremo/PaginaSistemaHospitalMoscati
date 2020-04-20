@@ -36,7 +36,7 @@
             @endif @endforeach
         </div>
     </div>
-    <hr>-->
+    <hr>
 
     <div class="editContent">
         <h5>Eventos pasados</h5>
@@ -63,6 +63,7 @@
                 @endif @endforeach
         </div>
     </div>
+-->
     <div class="paginador">
         {!! $posts->render() !!}
         <br>
