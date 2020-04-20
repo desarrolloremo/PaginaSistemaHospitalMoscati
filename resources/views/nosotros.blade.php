@@ -93,6 +93,19 @@
 		<div class="col-sm-3">
 			<h5 class="titulonosotros">Excelencia</h5>
 		</div>
+		<div class="col-sm-1">
+			<hr class="linea">
+		</div>
+		<div class="col-sm-3">
+			<h5 class="titulonosotros">Honestidad</h5>
+		</div>
+		<div class="col-sm-1">
+			<hr class="linea">
+		</div>
+		<div class="col-sm-3">
+			<h5 class="titulonosotros">Respeto</h5>
+		</div>
+
 	</div>
 </div> <br><br><br><br><br><br><br><br>
 <div class="section-header">
