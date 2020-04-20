@@ -87,10 +87,10 @@
 		<div class="col-sm-3">
 			<h5 class="titulonosotros">Empatía</h5>
 		</div>
-		<div class="col-sm-1 mt-4">
+		<div class="col-sm-1 ">
 			<hr class="linea">
 		</div>
-		<div class="col-sm-3 mt-4">
+		<div class="col-sm-3">
 			<h5 class="titulonosotros">Excelencia</h5>
 		</div>
 		<div class="col-sm-1 mt-4">
