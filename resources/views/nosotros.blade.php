@@ -68,13 +68,12 @@
 	</div>
 	<br><br><br><br>
 </div>
-
+<br>
 <div class="section-header">
 			<h2> <i class="fas fa-caret-right"></i>Valores</h2>
 		</div>
 <div class="container content-inner">
-	<br>
-	<br>
+	
 	<div class="row">
 		<div class="col-sm-1">
 			<hr class="linea">
