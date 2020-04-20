@@ -11,6 +11,7 @@
             <div class="col-md-12 text-center">
                  <h4 class="text-center" style="margin: 20px;font-size: 38px;">Próximamente</h4>
             </div>
+            <br><br><br>
         </div>
     </div>
     <!--<div class="editContent">
