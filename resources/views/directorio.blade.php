@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-  <div class="table">
+  <!--<div class="table">
     <table class="responstable">
       <tr>
         <th data-th="Datos generales"><span>Nombre completo</span></th>
@@ -57,5 +57,5 @@
       @endif
     </table>
   </div>
-</div>
+</div>-->
 @endsection
