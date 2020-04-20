@@ -80,22 +80,19 @@
 			<hr class="linea">
 		</div>
 		<div class="col-sm-3">
-			<h5 class="titulonosotros">Infraestructura</h5>
-			<p class="parrafonosotros">Edificado en 36 niveles, Moscati se erige como la torre médica más alta del estado, dotada de la más alta tecnología.</p>
+			<h5 class="titulonosotros">Confiabilidad</h5>
 		</div>
 		<div class="col-sm-1">
 			<hr class="linea">
 		</div>
 		<div class="col-sm-3">
-			<h5 class="titulonosotros">Procesos</h5>
-			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+			<h5 class="titulonosotros">Empatía</h5>
 		</div>
 		<div class="col-sm-1">
 			<hr class="linea">
 		</div>
 		<div class="col-sm-3">
-			<h5 class="titulonosotros">Recursos Humanos</h5>
-			<p class="parrafonosotros">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+			<h5 class="titulonosotros">Excelencia</h5>
 		</div>
 	</div>
 </div> <br><br><br><br><br><br><br><br>
