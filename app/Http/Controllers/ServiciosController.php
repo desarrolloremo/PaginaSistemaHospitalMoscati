@@ -21,6 +21,11 @@ class ServiciosController extends Controller
     {
         return view(' servicios.promocionesyaseguradoras');
     }
+
+    public function aseguradoras()
+    {
+        return view(' servicios.aseguradoras');
+    }
    
     public function index()
     {

@@ -65,7 +65,7 @@
               <ul>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
                   <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
-                    <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
+                    <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('aseguradoras')}}">Aseguradoras</a>
               </ul>
               </li>
               <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
@@ -102,7 +102,7 @@
             <ul class="children">
               <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
                 <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
-                  <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Aseguradoras</a>
+                  <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('aseguradoras')}}">Aseguradoras</a>
             </ul>
             </li>
             <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
