@@ -30,7 +30,7 @@ Route::get('aseguradoras', function () {
 
 Route::get('servicios', 'ServiciosController@home')->name('servicios');
 Route::get('promocionesyservicios', 'ServiciosController@promociones')->name('promocionesyservicios');
-Route::get('aseguradoras', 'ServiciosController@promociones')->name('aseguradoras');
+Route::get('aseguradoras', 'ServiciosController@aseguradoras')->name('aseguradoras');
 
 Route::get('contacto', function () {
     return view('contacto');
