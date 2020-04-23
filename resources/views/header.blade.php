@@ -39,7 +39,7 @@
             <i class="fas fa-phone" style="margin-left: 20%;"></i> URGENCIAS: +52 442 388 5420
           </div>
         </div>
-        <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
+        <div class="col-lg-8" style="padding-right: 0px; padding-left: 0px;">
           <div class="emergencias">
             <a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
