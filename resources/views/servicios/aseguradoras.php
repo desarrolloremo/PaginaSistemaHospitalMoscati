@@ -14,7 +14,7 @@
 
 
     <div class="section-header">
-        <h2> <i class="fas fa-caret-right"></i> PRÓXIMAMENTE </h2>
+        <h2> <i class="fas fa-caret-right"></i> Convenios con aseguradoras</h2>
     </div>
 
     <p class="text-justify">Hospital San José Moscati presta servicios sanitarios a través de diferentes acuerdos, a pacientes asegurados en distintas
