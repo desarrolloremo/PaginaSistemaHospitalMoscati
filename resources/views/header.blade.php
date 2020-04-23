@@ -54,7 +54,7 @@
 
         <!-- Logo -->
         <div class="logo">
-          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" width="500px"></a>
+          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:500px"></a>
         </div>
         <!-- Main Navigation -->
         <nav class="main_nav">
