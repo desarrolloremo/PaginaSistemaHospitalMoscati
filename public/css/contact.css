@@ -385,7 +385,7 @@ section
 .header_content
 {
 	width: 100%;
-	height: 95px;
+	height: auto;
 
 }
 .header.scrolled .header_content
