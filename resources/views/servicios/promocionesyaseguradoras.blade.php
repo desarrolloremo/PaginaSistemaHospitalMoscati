@@ -20,14 +20,14 @@
     <p class="text-justify">Hospital San José Moscati presta servicios sanitarios a través de diferentes acuerdos, a pacientes asegurados en distintas
         compañías de salud, bien sean seguros de cuadro médico o de reembolso de gastos. Además de estos, contamos con numerosos
         acuerdos particulares con empresas y organizaciones de distinta naturaleza, empresas autoaseguradoras de accidente
-        de trabajo, múltiples compañías de asistencia en viaje, de accidentes deportivos, etc consulte con su compañía qué
+        de trabajo, múltiples compañías de asistencia en viaje, de accidentes deportivos, etc consult4e con su compañía qué
         servicios están cubiertos y los trámites necesarios para la asistencia en nuestro hospital.
     </p>
     <br><br>
 
     <div class="row">
 
-        <div class="col-sm-4 caja-aseguradoras" style="background-image: url('../img/SitioPrincipal/promociones/maternidad-abril-17-2020.jpg');width: 100%;
+        <div class="col-sm-4 offset-sm-4 caja-aseguradoras" style="background-image: url('../img/SitioPrincipal/promociones/maternidad-abril-17-2020.jpg');width: 100%;
     height: 400px;
     background-position: 50% 50%;
     background-size: contain;
