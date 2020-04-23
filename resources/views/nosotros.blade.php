@@ -114,6 +114,7 @@
 
 	</div>
 </div> <br><br><br><br><br><br><br><br>
+<!--
 <div class="section-header">
 	<h2> <i class="fas fa-caret-right"></i> Directivos</h2>
 </div>
@@ -158,6 +159,7 @@
 		</div>
 	</div>
 </div>
+-->
 
 <br>
 <br>
