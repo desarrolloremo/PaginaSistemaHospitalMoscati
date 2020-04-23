@@ -51,12 +51,14 @@
 
 
       <div class="header_content d-flex flex-row align-items-center jusity-content-start">
-
-        <!-- Logo -->
-        <div class="logo">
-          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:240px"></a>
+        <div class="col-md-4">
+            <div class="logo">
+            <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:240px"></a>
+          </div>
         </div>
+        <!-- Logo -->
         <!-- Main Navigation -->
+        <div class="col-md-8">
         <nav class="main_nav">
           <ul class="d-flex flex-row align-items-center justify-content-start">
             <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
@@ -75,6 +77,7 @@
               <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
           </ul>
         </nav>
+        </div>
         <div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
           <!-- Appointment Button -->
           <!-- Hamburger -->
