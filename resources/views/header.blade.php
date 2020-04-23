@@ -58,7 +58,7 @@
         </div>
         <!-- Logo -->
         <!-- Main Navigation -->
-        <div class="col-lg-9 offset-md-1">
+        <div class="col-lg-10">
         <nav class="main_nav">
           <ul class="d-flex flex-row align-items-center justify-content-start">
             <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
