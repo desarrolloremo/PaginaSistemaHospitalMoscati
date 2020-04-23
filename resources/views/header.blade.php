@@ -46,7 +46,7 @@
           </div>
         </div>
 
-      </div>
+      
 
 
 
@@ -84,6 +84,7 @@
           <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
       </div>
+    </li>
     </header>
 
     <!-- Menu -->
