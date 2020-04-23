@@ -51,14 +51,14 @@
 
 
       <div class="header_content d-flex flex-row align-items-center jusity-content-start">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="logo">
             <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:240px"></a>
           </div>
         </div>
         <!-- Logo -->
         <!-- Main Navigation -->
-        <div class="col-md-8">
+        <div class="col-md-9">
         <nav class="main_nav">
           <ul class="d-flex flex-row align-items-center justify-content-start">
             <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
