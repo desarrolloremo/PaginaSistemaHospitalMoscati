@@ -11,7 +11,7 @@
 	<div class="row">
 		<hr class="linea" style="width: 3px; height: 30px;">
 		<h4 style="margin: 20px;">Servicios más relevantes con los que cuenta el Hospital.</h4>
-		<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">Moscati cuenta con 15 cubículos para urgencias, laboratorio clínico, equipos para resonancia de 1.5 teslas, un tomógrafo de 128 cortes, ultrasonido 4D,sala de rayos X, mastógrafo digital y densitómetro digital.</p>
+		<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">Moscati cuenta con 15 cubículos para urgencias, laboratorio clínico, equipos para resonancia de 1.5 teslas, un tomógrafo de 128 cortes, ultrasonido 4D, sala de rayos X, mastógrafo digital y densitómetro digital.</p>
 	</div>
 </div>
 
