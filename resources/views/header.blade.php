@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <div class="super_container">
+  <div class="container-fluid">
 
     <!-- Header -->
     <header class="header trans_400">
