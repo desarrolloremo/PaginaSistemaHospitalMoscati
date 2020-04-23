@@ -27,8 +27,10 @@ Route::get('aseguradoras', function () {
     return view('aseguradoras');
 })->name('aseguradoras');
 
+
 Route::get('servicios', 'ServiciosController@home')->name('servicios');
 Route::get('promocionesyservicios', 'ServiciosController@promociones')->name('promocionesyservicios');
+Route::get('aseguradoras', 'ServiciosController@promociones')->name('aseguradoras');
 
 Route::get('contacto', function () {
     return view('contacto');
