@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="super_container">
 
     <!-- Header -->
     <header class="header trans_400">
@@ -39,26 +39,24 @@
             <i class="fas fa-phone" style="margin-left: 20%;"></i> URGENCIAS: +52 442 388 5420
           </div>
         </div>
-        <div class="col-lg-8" style="padding-right: 0px; padding-left: 0px;">
+        <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
           <div class="emergencias">
             <a href="https://www.instagram.com/moscatiqro/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
           </div>
         </div>
 
-      
+      </div>
 
 
 
       <div class="header_content d-flex flex-row align-items-center jusity-content-start">
-        <div class="col-lg-2">
-            <div class="logo">
-            <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:240px"></a>
-          </div>
-        </div>
+
         <!-- Logo -->
+        <div class="logo">
+          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:250px"></a>
+        </div>
         <!-- Main Navigation -->
-        <div class="col-lg-10">
         <nav class="main_nav">
           <ul class="d-flex flex-row align-items-center justify-content-start">
             <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
@@ -77,14 +75,12 @@
               <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
           </ul>
         </nav>
-        </div>
         <div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
           <!-- Appointment Button -->
           <!-- Hamburger -->
           <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
       </div>
-    </li>
     </header>
 
     <!-- Menu -->
