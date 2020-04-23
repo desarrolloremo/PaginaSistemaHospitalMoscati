@@ -45,17 +45,12 @@
             <a href="https://www.facebook.com/Moscatiqro/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
           </div>
         </div>
-
-      </div>
-
-
-
-      <div class="header_content d-flex flex-row align-items-center jusity-content-start">
-
-        <!-- Logo -->
-        <div class="logo">
-          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:250px"></a>
+        <div class="col-lg-4" style="padding-right: 0px; padding-left: 0px;">
+          <div class="logo">
+            <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width:250px"></a>
+          </div>
         </div>
+        <div class="col-lg 8" style="padding-right: 0px; padding-left: 0px;">
         <!-- Main Navigation -->
         <nav class="main_nav">
           <ul class="d-flex flex-row align-items-center justify-content-start">
@@ -80,6 +75,16 @@
           <!-- Hamburger -->
           <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
+      </li>
+
+      </div>
+
+
+
+      <div class="header_content d-flex flex-row align-items-center jusity-content-start">
+
+        <!-- Logo -->
+        
       </div>
     </header>
 
