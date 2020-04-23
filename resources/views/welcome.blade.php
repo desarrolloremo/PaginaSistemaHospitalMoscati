@@ -84,7 +84,7 @@
                                <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/ENFERMERAICONO.png">
                         </div>
                         <div class="col-sm-9">
-                                <div class="why_list_title">Los mejores doctores</div>
+                                <div class="why_list_title">Los mejores Médicos</div>
                                 <div class="why_list_text">En Moscati, la constante capacitación y evaluación de nuestros médicos es primordial, lo cual nos permite garantizar la mejor atención a los pacientes cumpliendo los estándares más altos del hospital. Un equipo formado por  personas más talentosas  dedicadas a su profesión y comprometidas con la salud.</div>
                         </div>
                     </div>
