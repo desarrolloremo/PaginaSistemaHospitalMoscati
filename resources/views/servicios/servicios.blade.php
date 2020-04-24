@@ -77,11 +77,11 @@
 				<li type='disc'>Helipuerto</li>
 				<li type='disc'>Estacionamiento</li>
 				<li type='disc'>Gimnasio</li>
+				<li type='disc'>SPA</li>
 			</ul> 
 		</div>
 		<div class="col-sm-4">
 			<ul>
-				<li type='disc'>SPA</li>
 				<li type='disc'>Hotel y Suites</li>
 				<li type='disc'>Restaurantes y Cafeterías</li>
 				<li type='disc'>Roof Garden</li>
