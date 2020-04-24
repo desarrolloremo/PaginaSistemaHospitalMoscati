@@ -29,6 +29,7 @@
       </div>
     </div>
   </div>
+  {{
   <div class="table">
     <table class="responstable">
       <tr>
@@ -58,6 +59,6 @@
       <br>
       @endif
     </table>
-  </div>
+  </div>}}
 </div>
 @endsection
