@@ -775,8 +775,8 @@ display: none;
 .blog
 {
 	background: #FFFFFF;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 .blog_post:not(:last-child)
 {
