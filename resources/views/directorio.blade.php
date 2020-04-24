@@ -7,7 +7,7 @@
 <div class="container" style="margin-top:3rem!important">
   <div class="blog" style="background-image: url('img/SitioPrincipal/inicio/7.jpg');    background-position: 50% 31%;
     background-size: cover;
-    background-repeat: no-repeat;">
+    background-repeat: no-repeat;height: 30vh;">
     <div class="blog_post">
       <div class="blog_post_title"><a href="#" class="text-white">Próximamente</a></div>
       {{--
