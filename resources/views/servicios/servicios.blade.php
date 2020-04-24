@@ -73,7 +73,7 @@
 
 	<div class="row" id="Servicioslistas">
 	 	<div class="col-sm-4">
-			<ul>
+			<ul class="list-inline justify-content-center">
 				<li type='disc'>Helipuerto</li>
 				<li type='disc'>Estacionamiento</li>
 				<li type='disc'>Gimnasio</li>
