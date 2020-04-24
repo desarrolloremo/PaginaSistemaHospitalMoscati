@@ -72,22 +72,14 @@
 <div class="container">
 
 	<div class="row" id="Servicioslistas">
-	 	<div class="col-sm-3">
+	 	<div class="col-sm-4">
 		{{-- 	<ul>
 				<li type='disc'>Helipuerto</li>
 				<li type='disc'>Estacionamiento</li>
 				<li type='disc'>Gimnasio</li>
 			</ul> --}}
 		</div>
-		<div class="col-sm-3">
-			<ul>
-				<li type='disc'>Elevadores</li>
-				<li type='disc'>Helipuerto</li>
-				<li type='disc'>Estacionamiento</li>
-				<li type='disc'>Gimnasio</li>
-			</ul>
-		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-4">
 			<ul>
 				<li type='disc'>SPA</li>
 				<li type='disc'>Hotel y Suites</li>
@@ -95,7 +87,7 @@
 				<li type='disc'>Roof Garden</li>
 			</ul>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-4">
 			<ul>
 				<li type='disc'>Aulas y Auditorio</li>
 				<li type='disc'>Consultorios</li>
