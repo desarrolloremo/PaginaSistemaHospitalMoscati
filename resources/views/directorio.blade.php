@@ -10,7 +10,7 @@
     background-repeat: no-repeat;">
     <div class="blog_post">
       <div class="blog_post_title"><a href="#" class="text-white">Próximamente</a></div>
-      <!--<div class="blog_post_text text-center">
+      <div class="blog_post_text text-center">
 
         
         <form method="POST" action="{{ action('Admin\DirectorioDoctorControler@home')}}">
@@ -26,10 +26,10 @@
             </div>
           </div>
         </form>
-      </div>-->
+      </div>
     </div>
   </div>
-  <!--<div class="table">
+  <div class="table">
     <table class="responstable">
       <tr>
         <th data-th="Datos generales"><span>Nombre completo</span></th>
@@ -59,5 +59,5 @@
       @endif
     </table>
   </div>
-</div>-->
+</div>
 @endsection
