@@ -10,6 +10,7 @@
     background-repeat: no-repeat;">
     <div class="blog_post">
       <div class="blog_post_title"><a href="#" class="text-white">Próximamente</a></div>
+      {{--
       <div class="blog_post_text text-center">
 
         
@@ -26,7 +27,7 @@
             </div>
           </div>
         </form>
-      </div>
+      </div>--}}
     </div>
   </div>
   {{--
