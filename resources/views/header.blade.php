@@ -63,9 +63,8 @@
             <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
             <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
               <ul>
-                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
-                  <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
-                    <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('aseguradoras')}}">Aseguradoras</a>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a></li>
+                  <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a></li>
               </ul>
               </li>
               <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
@@ -100,9 +99,9 @@
           <li class="submenu">
             <a href="#">Servicios <i class="fas fa-angle-down"></i></a>
             <ul class="children">
-              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a>
-                <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a>
-                  <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('aseguradoras')}}">Aseguradoras</a>
+              <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a></li>
+                <li class="{{ Request::is('promocionesyservicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a></li>
+                 
             </ul>
             </li>
             <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
