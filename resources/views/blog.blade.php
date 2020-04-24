@@ -3,8 +3,19 @@
 <br>
 <br>
 <br>
-<h1>holaaaaaaaaaaaaaaaaaaaa</h1>
+
 <br>
+<div class="container-fluid">
+        <div class="row m-4 p-4 text-center">
+            <div class="col-md-12 text-center">
+                  <div class="blog_post p-4" style="opacity: .8;
+                    background-color: white;">
+                      <div class="blog_post_title mt-0"><a href="#" class="text-black p-4">Próximamente</a></div>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
 <br> @foreach ($posts as $post)
 <div class="col-md-8 mx-auto" style="margin-top:3rem!important">
 
