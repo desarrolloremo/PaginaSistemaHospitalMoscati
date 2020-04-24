@@ -10,7 +10,7 @@
     background-repeat: no-repeat;height: 60vh;">
     <div class="blog_post p-4" style="opacity: .8;
     background-color: white;">
-      <div class="blog_post_title"><a href="#" class="text-black p-4">Próximamente</a></div>
+      <div class="blog_post_title mt-0"><a href="#" class="text-black p-4">Próximamente</a></div>
       {{--
       <div class="blog_post_text text-center">
 
