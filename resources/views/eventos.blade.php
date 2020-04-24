@@ -9,7 +9,10 @@
     <div class="container-fluid">
         <div class="row m-4 p-4 text-center">
             <div class="col-md-12 text-center">
-                 <h4 class="text-center" style="margin: 20px;font-size: 38px;font-weight: bold;">Próximamente</h4>
+                  <div class="blog_post p-4" style="opacity: .8;
+                    background-color: white;">
+                      <div class="blog_post_title mt-0"><a href="#" class="text-black p-4">Próximamente</a></div>
+                  </div>
             </div>
             
         </div>
