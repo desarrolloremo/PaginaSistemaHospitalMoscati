@@ -3,6 +3,7 @@
 <br>
 <br>
 <br>
+<h1>holaaaaaaaaaaaaaaaaaaaa</h1>
 <br>
 <br> @foreach ($posts as $post)
 <div class="col-md-8 mx-auto" style="margin-top:3rem!important">
