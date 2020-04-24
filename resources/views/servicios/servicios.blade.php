@@ -73,11 +73,11 @@
 
 	<div class="row" id="Servicioslistas">
 	 	<div class="col-sm-4">
-		{{-- 	<ul>
+			<ul>
 				<li type='disc'>Helipuerto</li>
 				<li type='disc'>Estacionamiento</li>
 				<li type='disc'>Gimnasio</li>
-			</ul> --}}
+			</ul> 
 		</div>
 		<div class="col-sm-4">
 			<ul>
