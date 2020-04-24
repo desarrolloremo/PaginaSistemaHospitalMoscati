@@ -8,7 +8,8 @@
   <div class="blog" style="background-image: url('img/SitioPrincipal/inicio/7.jpg');    background-position: 50% 31%;
     background-size: cover;
     background-repeat: no-repeat;height: 60vh;">
-    <div class="blog_post">
+    <div class="blog_post" style="opacity: .8;
+    background-color: white;">
       <div class="blog_post_title"><a href="#" class="text-black">Próximamente</a></div>
       {{--
       <div class="blog_post_text text-center">
