@@ -4,7 +4,7 @@
 <br>
 <br>
 <br>
-<div class="container bg-white content-inner" style="margin-top:3rem!important">
+<div class="container bg-white content-inner" style="margin-top:5rem!important">
 	<div class="row">
 		<div class="col-sm-4 mt-4 pt-4 ">
 			<img src="img/SitioPrincipal/nosotros/consultorio.png" srcset="img/SitioPrincipal/nosotros/consultorio@2x.png 2x,
