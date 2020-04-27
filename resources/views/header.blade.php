@@ -50,14 +50,14 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
             <div class="logo">
                 <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width: 300px!important;max-width: none;"></a>
               </div>
         </div>
         <!-- Logo -->
         <!-- Main Navigation -->
-        <div class="col-md-8">
+        <div class="col-md-10">
             <nav class="main_nav">
               <ul class="d-flex flex-row align-items-center justify-content-start">
                 <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
