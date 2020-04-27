@@ -57,9 +57,9 @@
         </div>
         <!-- Logo -->
         <!-- Main Navigation -->
-        <div class="col-md-10 pt-4 pb-4 pl-4">
+        <div class="col-md-10 pt-4 pb-4 pl-4 ">
             <nav class="main_nav">
-              <ul class="nav align-items-center">
+              <ul class="nav align-items-center justify-content-center">
                 <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
                 <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
