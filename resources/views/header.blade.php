@@ -57,7 +57,7 @@
         </div>
         <!-- Logo -->
         <!-- Main Navigation -->
-        <div class="col-md-10">
+        <div class="col-md-10 pt-4 pb-4">
             <nav class="main_nav">
               <ul class="nav align-items-center">
                 <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
