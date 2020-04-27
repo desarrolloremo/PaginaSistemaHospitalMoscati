@@ -59,7 +59,7 @@
         <!-- Main Navigation -->
         <div class="col-md-10">
             <nav class="main_nav">
-              <ul class="d-flex flex-row align-items-center justify-content-start">
+              <ul class="align-items-center">
                 <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
                 <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
                 <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
