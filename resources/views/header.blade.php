@@ -48,9 +48,9 @@
 
       </div>
 
-
-
-      <div class="header_content d-flex flex-row align-items-center jusity-content-start">
+    <div class="container-fluid">
+       <div class="row">
+         <div class="header_content d-flex flex-row align-items-center jusity-content-start">
 
         <!-- Logo -->
         <div class="logo">
@@ -80,6 +80,8 @@
           <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
       </div>
+       </div>
+    </div>
     </header>
 
     <!-- Menu -->
