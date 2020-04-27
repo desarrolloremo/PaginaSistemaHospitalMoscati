@@ -49,38 +49,39 @@
       </div>
 
     <div class="container-fluid">
-       <div class="row">
-         <div class="align-items-center">
-
-        <!-- Logo -->
-        <div class="logo">
-          <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width: 300px!important;max-width: none;"></a>
+      <div class="row">
+        <div class="col-md-4">
+            <div class="logo">
+                <a href="{{route('/')}}"><img src="/img/SitioPrincipal/logo.png" alt="" style="width: 300px!important;max-width: none;"></a>
+              </div>
         </div>
+        <!-- Logo -->
         <!-- Main Navigation -->
-        <nav class="main_nav">
-          <ul class="d-flex flex-row align-items-center justify-content-start">
-            <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
-            <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
-            <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
-              <ul>
-                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a></li>
-                  <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a></li>
+        <div class="col-md-8">
+            <nav class="main_nav">
+              <ul class="d-flex flex-row align-items-center justify-content-start">
+                <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('/')}}">Inicio</a></li>
+                <li class="{{ Request::is('nosotros') ? 'active' : '' }}"><a href="{{route('nosotros')}}">Nosotros</a></li>
+                <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a style="color: #1c2533;">Servicios </a>
+                  <ul>
+                    <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('servicios')}}">Nuestros Servicios</a></li>
+                      <li class="{{ Request::is('servicios') ? 'active' : '' }}"><a href="{{route('promocionesyservicios')}}">Promociones</a></li>
+                  </ul>
+                  </li>
+                  <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
+                  <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
+                  <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Blog</a></li>
+                  <li class="{{ Request::is('bolsadetrabajo') ? 'active' : '' }}"><a href="{{route('bolsadetrabajo')}}">Bolsa de trabajo</a></li>
+                  <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
               </ul>
-              </li>
-              <li class="{{ Request::is('directorio') ? 'active' : '' }}"><a href="{{route('directorio')}}">Directorio</a></li>
-              <li class="{{ Request::is('eventos') ? 'active' : '' }}"><a href="{{route('eventos')}}">Eventos</a></li>
-              <li class="{{ Request::is('blog') ? 'active' : '' }}"><a href="{{route('blog')}}">Blog</a></li>
-              <li class="{{ Request::is('bolsadetrabajo') ? 'active' : '' }}"><a href="{{route('bolsadetrabajo')}}">Bolsa de trabajo</a></li>
-              <li class="{{ Request::is('contacto') ? 'active' : '' }}"><a href="{{route('contacto')}}">Contacto</a></li>
-          </ul>
-        </nav>
+            </nav>
+        </div>
         <div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
           <!-- Appointment Button -->
           <!-- Hamburger -->
           <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
       </div>
-       </div>
     </div>
     </header>
 
