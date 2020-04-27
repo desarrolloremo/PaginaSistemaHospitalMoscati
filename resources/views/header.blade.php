@@ -50,7 +50,7 @@
 
     <div class="container-fluid">
        <div class="row">
-         <div class="header_content d-flex flex-row align-items-center jusity-content-start">
+         <div class="align-items-center">
 
         <!-- Logo -->
         <div class="logo">
