@@ -6,7 +6,7 @@
 <br>
 <br>
 
-<div class="bloc bgc-white  l-bloc bg-repeat" id="bolsa" style="margin-top:3rem!important">
+<div class="bloc bgc-white  l-bloc bg-repeat" id="bolsa" style="margin-top:7rem!important">
     <div style="color:#333;" class="container bloc-md">
         <div class="row">
             <div class="col-sm-6">

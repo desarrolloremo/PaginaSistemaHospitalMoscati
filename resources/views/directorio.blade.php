@@ -4,7 +4,7 @@
 <br>
 <br>
 <br>
-<div class="container" style="margin-top:3rem!important">
+<div class="container" style="margin-top:7rem!important">
   <div class="blog" style="background-image: url('img/SitioPrincipal/inicio/7.jpg');    background-position: 50% 31%;
     background-size: cover;
     background-repeat: no-repeat;height: 60vh;">
