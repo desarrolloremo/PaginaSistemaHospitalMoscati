@@ -74,7 +74,7 @@
                         </div>
                         <div class="col-sm-9">
                             <div class="why_list_title">Contamos con más de 30 especialidades</div>
-                            <div class="why_list_text pt-3">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
+                            <div class="why_list_text pt-3"><p class="text-white">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</p></div>
                         </div>
                     </div>
                 </div>
