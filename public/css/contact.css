@@ -20,6 +20,8 @@
 /***********
 1. Fonts
 ***********/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @font-face {
@@ -95,10 +97,13 @@ p a
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	font-family: 'Roboto', sans-serif;
+
 }
 p:last-of-type
 {
 	margin-bottom: 0;
+
 }
 a
 {
