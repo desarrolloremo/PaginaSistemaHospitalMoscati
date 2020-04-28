@@ -1,4 +1,4 @@
-@extends('header') 
+{{--@extends('header') 
 @section('contenido')
 <br>
 <br>
@@ -47,4 +47,4 @@
     <br>
     <br>
 </div>
-@endsection
+@endsection --}}
