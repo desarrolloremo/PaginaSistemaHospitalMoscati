@@ -120,8 +120,7 @@
                     </a>
                 </div>
                 <div class="col-md-8 offset-md-2 mb-4">  
-                        <p>El departamento de neurología ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
-                        utilizados para el monitoreo de la epilepsia y la rehabilitación neurológica intensiva.</p> 
+                        <p>Moscati contará con uno de los Centros Oncológicos más avanzados del continente; equipado con tomógrafo con PET, gamagrama, PET/CT con simulador, acelerador lineal, gamma knife, ciclotrón, Radio farmacia, braquiterapia y acelerador con resonancia magnética. (Próximamente).</p> 
                 </div>
             </div>
         </div>
