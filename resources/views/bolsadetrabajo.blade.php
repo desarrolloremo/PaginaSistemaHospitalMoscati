@@ -27,7 +27,7 @@
                     <i class="fa fa-envelope fa-2x"></i> Contacto: rh@moscati.com.mx <br>
                 </div>
             </div>--}}
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" style="height: 25vh;">
                   <div class="blog_post p-4" style="opacity: .8;
                     background-color: white;">
                       <div class="blog_post_title mt-0"><a href="#" class="text-black p-4">Próximamente</a></div>
