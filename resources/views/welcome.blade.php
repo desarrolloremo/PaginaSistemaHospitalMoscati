@@ -119,6 +119,8 @@
                         <h2> <i class="fas fa-caret-right"></i> Nuestros servicios</h2>
                     </a>
                 </div>
+                <p>El departamento de neurología ofrece un gran servicio para pacientes hospitalizados con equipos sofisticados
+                        utilizados para el monitoreo de la epilepsia y la rehabilitación neurológica intensiva.</p>
             </div>
         </div>
         
