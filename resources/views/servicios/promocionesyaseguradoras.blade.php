@@ -1,15 +1,15 @@
-{{--@extends('header') 
+@extends('header') 
 @section('contenido')
 <br>
 <br>
 <br>
 <br>
 <div class="container" style="margin-top:7rem!important">
-
+{{--
 
     <div class="section-header">
         <h2> <i class="fas fa-caret-right"></i> Nuestras promociones</h2>
-    </div>
+    </div>--}}
 
 
 
@@ -47,4 +47,4 @@
     <br>
     <br>
 </div>
-@endsection --}}
+@endsection
