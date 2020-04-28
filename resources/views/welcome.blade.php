@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">La tecnología de punta con la que contará el Hospital</div>
-                                <p>Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. El cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.</p>
+                                <p class="text-white pt-3">Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. El cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.</p>
                         </div>
                     </div>
                 </div>
