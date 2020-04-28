@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title font-weight-bold">Los mejores Médicos</div>
-                                <p class="text-white pt-3">En Moscati, la constante capacitación y evaluación de nuestros médicos es primordial, lo cual nos permite garantizar la mejor atención a los pacientes cumpliendo los estándares más altos del hospital. Un equipo formado por  personas más talentosas  dedicadas a su profesión y comprometidas con la salud.</p>
+                                <p class="text-white pt-3 font-weight-light">En Moscati, la constante capacitación y evaluación de nuestros médicos es primordial, lo cual nos permite garantizar la mejor atención a los pacientes cumpliendo los estándares más altos del hospital. Un equipo formado por  personas más talentosas  dedicadas a su profesión y comprometidas con la salud.</p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                             <br><img class="img-fluid iconobienvenida" src="img/SitioPrincipal/iconosheader/INYECCIONICONO.png">
                         </div>
                         <div class="col-sm-9">
-                                <div class="why_list_title font-weight-normal">La tecnología de punta con la que contará el Hospital</div>
+                                <div class="why_list_title">La tecnología de punta con la que contará el Hospital</div>
                                 <p class="text-white pt-3">Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. El cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.</p>
                         </div>
                     </div>
