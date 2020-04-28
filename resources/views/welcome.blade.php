@@ -74,7 +74,7 @@
                         </div>
                         <div class="col-sm-9">
                             <div class="why_list_title">Contamos con más de 30 especialidades</div>
-                            <div class="why_list_text pt-2">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
+                            <div class="why_list_text pt-3">Un equipamiento completo de diagnóstico y tratamiento, y un plantel profesional reconocido.</div>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">Los mejores Médicos</div>
-                                <div class="why_list_text pt-2">En Moscati, la constante capacitación y evaluación de nuestros médicos es primordial, lo cual nos permite garantizar la mejor atención a los pacientes cumpliendo los estándares más altos del hospital. Un equipo formado por  personas más talentosas  dedicadas a su profesión y comprometidas con la salud.</div>
+                                <div class="why_list_text pt-3">En Moscati, la constante capacitación y evaluación de nuestros médicos es primordial, lo cual nos permite garantizar la mejor atención a los pacientes cumpliendo los estándares más altos del hospital. Un equipo formado por  personas más talentosas  dedicadas a su profesión y comprometidas con la salud.</div>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-sm-9">
                                 <div class="why_list_title">La tecnología de punta con la que contará el Hospital</div>
-                                <div class="why_list_text pt-2">Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. El cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.</div>
+                                <div class="why_list_text pt-3">Contamos con 13 quirófanos equipados con el instrumental quirúrgico más avanzado en la actualidad, uno de ellos con cardio ensuite. El cunero está aislado y es monitoreado las 24 horas del día por personal capacitado para brindar la mejor atención neonatal.</div>
                         </div>
                     </div>
                 </div>
