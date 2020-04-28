@@ -9,6 +9,7 @@
 <div class="bloc bgc-white  l-bloc bg-repeat" id="bolsa" style="margin-top:7rem!important">
     <div style="color:#333;" class="container bloc-md">
         <div class="row">
+            {{--
             <div class="col-sm-6">
                 <img src="img/SitioPrincipal/bolsatrabajo/bolsatrabajogrupo.jpg" class="img-responsive img-frame">
             </div>
@@ -25,6 +26,12 @@
                     <a style="color:#525252" href="https://www.facebook.com/hospitalsanjosemoscati/" target="_blank"><i class="fab fa-facebook fa-2x"></i> Facebook</a> <br><br>
                     <i class="fa fa-envelope fa-2x"></i> Contacto: rh@moscati.com.mx <br>
                 </div>
+            </div>--}}
+            <div class="col-md-12 text-center">
+                  <div class="blog_post p-4" style="opacity: .8;
+                    background-color: white;">
+                      <div class="blog_post_title mt-0"><a href="#" class="text-black p-4">Próximamente</a></div>
+                  </div>
             </div>
         </div>
     </div>
