@@ -120,7 +120,7 @@
                     </a>
                 </div>
                 <div class="col-md-8 offset-md-2 mb-4">  
-                        <p>Moscati contará con uno de los Centros Oncológicos más avanzados del continente; equipado con tomógrafo con PET, gamagrama, PET/CT con simulador, acelerador lineal, gamma knife, ciclotrón, Radio farmacia, braquiterapia y acelerador con resonancia magnética. (Próximamente).</p> 
+                        <p>Moscati contará con uno de los Centros Oncológicos más avanzados del continente; equipado con tomógrafo con PET, gamagrama, PET/CT con simulador, acelerador lineal, gamma knife, ciclotrón, Radio farmacia, braquiterapia y acelerador con resonancia magnética (Próximamente).</p> 
                 </div>
             </div>
         </div>
