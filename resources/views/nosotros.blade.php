@@ -57,12 +57,12 @@
 		<div class="col-sm-3"></div>
 		<div class="col-sm-3 AZUL-RECT">
 			<h2 class="title-filosofia">Misión</h2>
-			<p class="content-filosofia">Satisfacer las necesidades de cuidado de la salud de los pacientes, brindando a toda la comunidad la mejor atención médica basada en la evidencia científica, otorgando al paciente un diagnostico acertado, tratamiento y solución eficaz, garantizada mediante la revisión y actualización de los conocimientos, procesos y tecnologías.</p>
+			<p class="content-filosofia">Proporcionar una atención médica integral, con talento humano y profesionales certificados, tecnología de punta, ética y disciplina en todo lo que hacemos.</p>
 		</div>
 		<div class="col-sm-1"></div>
 		<div class="col-sm-3 GRIS-RECT">
 			<h2 class="title-filosofia" style="color: #002554;">Visión</h2>
-			<p class="content-filosofia" style="color: #002554;">Ofrecer la mejor atención médica integral, mediante profesionales calificados y la mejor tecnología garantizando un ambiente seguro para el desarrollo de los procesos de atención, el cuidado de la salud y el bienestar del paciente, buscando ser uno de los mejores hospitales de Latinoamérica.</p>
+			<p class="content-filosofia" style="color: #002554;">Ser un hospital líder a nivel nacional, en la práctica y la educación continua en materia de salud, siempre comprometidos con la seguridad del paciente.</p>
 		</div>
 		<div class="col-sm-1"></div>
 	</div>
