@@ -17,7 +17,7 @@
             
         </div>
     </div>
-    <!--<div class="editContent">
+    <div class="editContent">
         <h5>Proximos eventos</h5>
 
     </div>
@@ -69,7 +69,6 @@
                 @endif @endforeach
         </div>
     </div>
--->
     <div class="paginador">
         {!! $posts->render() !!}
         <br>

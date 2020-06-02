@@ -11,7 +11,7 @@
     <div class="blog_post p-4" style="opacity: .8;
     background-color: white;">
       <div class="blog_post_title mt-0"><a href="#" class="text-black p-4">Próximamente</a></div>
-      {{--
+      
       <div class="blog_post_text text-center">
 
         
@@ -28,10 +28,10 @@
             </div>
           </div>
         </form>
-      </div>--}}
+      </div>
     </div>
   </div>
-  {{--
+  
   <div class="table">
     <table class="responstable">
       <tr>
@@ -61,6 +61,6 @@
       <br>
       @endif
     </table>
-  </div>--}}
+  </div>
 </div>
 @endsection

@@ -11,7 +11,8 @@
 	<div class="row">
 		<hr class="linea" style="width: 3px; height: 30px;">
 		<h4 style="margin: 20px;">Servicios con los que cuenta el Hospital.</h4>
-		<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">Moscati cuenta con 15 cubículos para urgencias, laboratorio clínico, equipos para resonancia de 1.5 teslas, un tomógrafo de 128 cortes, ultrasonido 4D, sala de rayos X, mastógrafo digital y densitómetro digital.</p>
+		<p class="La-infraestructura-del-Hospital-San-Jos-Moscati-ha-sido-dise">Moscati cuenta con urgencias 24 horas, Pediatria, imagenología, laboratorio clínico 24 horas, terapia intensiva humanizada – adultos – neonatal – pediátricos. Hemodinamia, procedimientos quirúrgicos, hospitalización, 100 habitaciones: -standar, suite y master suite. <br>
+		Consulta de especialidad: Ginecologia, Urología, cardiología, oncología, rehabilitación y traumatología.</p>
 	</div>
 </div>
 

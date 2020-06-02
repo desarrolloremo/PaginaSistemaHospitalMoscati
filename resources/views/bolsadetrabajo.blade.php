@@ -37,7 +37,7 @@
     </div>
 </div>
 <br>
-{{--
+
 <div class="bloc bgc-white  l-bloc bg-repeat">
     <div style="color:#333;" class="container bloc-md">
         <div class="row">
@@ -79,5 +79,5 @@
             </div>
         </div>
     </div>
-</div>--}}
+</div>
 @endsection
